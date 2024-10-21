@@ -64,16 +64,13 @@ social:
 
 highlight_name: true # Highlight the author in author lists? (true/false)
 ---
-**About me**
 
-I am currently pursueing a [Joint Master's degree in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
+#### About me
 
-Prior to this, I worked as a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a US-based advertising platform, where I specialized in Applied Data Science, Machine Learning and Programmatic Advertising. Before that, I was one of three core AI engineers at [SceneSeer](https://www.youtube.com/@sceneseer8871) - another US-based startup focused on Computer Vision technology and application.
+I am currently pursueing a [Joint Master's degree in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain with interests in Computer vision, Scene Understanding, Continual Learning and Deep Learning.
 
-I hold a Bachelor's degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis work focused on lightweight image classification, neural network interpretation and the integration with mechatronics system in real time.
+Prior to this, I worked as a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a US-based advertising platform, where I specialized in Programmatic Advertising utilizing Machine Learning and Data Science. My favorite topic here was Continual Learning in industrial context. 
 
-**Research Interest**
+Before that, I was one of three core AI engineers at [SceneSeer](https://www.youtube.com/@sceneseer8871) - another US-based startup focused on potential Computer Vision technology and applications. I focused on Scene Understanding and OCR during this period.
 
-* Computer Vision, Behavioral Analysis, Scene Understanding, Object tracking
-
-* Machine Learning, Deep Learning, Model Calibration, Continual Learning
+I hold a Bachelor's degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis work focused on Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System.

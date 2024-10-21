@@ -4,23 +4,23 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: " "
-    weight: 5
+  # - name: " "
+  #   weight: 10
   - name: Home
     url: '/index.html'
-    weight: 10
+    weight: 20
   # - name: News
   #   url: '/news.html'
   #   weight: 30
   - name: Publications
     url: '/publication.html'
+    weight: 30
+  - name: Blog
+    url: '/gallery/fullrene'
     weight: 40
-  # - name: Blog
-  #   url: '/blog/'
-  #   weight: 60
   - name: CV
     url: 'files/resume/phattruong_resume_faang.pdf'
-    weight: 70
+    weight: 50
   
 # Sub-home menu
 #  - name: About
