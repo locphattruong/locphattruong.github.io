@@ -1,28 +1,29 @@
 ---
 # Display name
-title: Simon Gravelle
+title: Loc-Phat Truong
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Simon
-last_name: Gravelle
+first_name: Phat
+last_name: Truong
 
 # Status emoji
 status:
-  icon:
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: CNRS research scientist, MSCA Fellow
+role: Master in Computer Vision 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: LiPhy, UGA, CNRS
-    url: https://liphy.univ-grenoble-alpes.fr/
+  - name: UAB, UOC, UPC, UPF, UB
+    url: https://mcv.uab.cat/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a computer physicist in soft matter and fluids at interfaces at LIPhy (UGA/CNRS) in Grenoble, France.
+bio: I am a Master student in Computer Vision at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
 
 # Interests to show in About widget
 interests:
@@ -45,45 +46,34 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:simon.gravelle@live.fr
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GravelleSimon
-    label: Follow me on Twitter
+    link: mailto:phattruong.psn@gmail.com
   - icon: graduation-cap
     icon_pack: fas
-    link: https://scholar.google.com/citations?user=9fD2JlYAAAAJ&hl=fr
+    link: https://scholar.google.com/citations?user=N3fuK8UAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/simongravelle
+    link: https://github.com/sheldontruong
     display:
       header: true
-  - icon: cv
-    icon_pack: ai
-    link: files/resume/resume-simon-gravelle.pdf
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/sheldon97/
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: files/resume/phattruong_resume.pdf
 
 highlight_name: true # Highlight the author in author lists? (true/false)
 ---
 **About me**
 
-I am a [CNRS](https://www.cnrs.fr/) researcher at
-[LIPhy](https://liphy.univ-grenoble-alpes.fr/) in Grenoble, France. I use
-molecular simulations to study fluids at interfaces and soft matter systems.
+I am currently pursueing a [Joint Master's degree in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
 
-**Open Source and Outreach Activities**
+Prior to this, I worked as a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a US-based advertising platform, where I specialized in Applied Data Science, Machine Learning and Programmatic Advertising. Before that, I was one of three core AI engineers at [SceneSeer](https://www.youtube.com/@sceneseer8871) - another US-based startup focused on Computer Vision technology and application.
 
-I share all the code developed as part of my research as open source. You can
-find it in my [GitHub](https://github.com/simongravelle/) repository. 
-Additionally, see the following resources:
+I hold a Bachelor's degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis work focused on lightweight image classification, neural network interpretation and the integration with mechatronics system in real time.
 
-- [MAICoS](https://maicos-devel.gitlab.io/maicos/index.html), a Python toolkit 
-  for analyzing confined molecular simulations
-- [LAMMPS Tutorials](https://lammpstutorials.github.io), tutorials for 
-  beginners using LAMMPS
-- [GROMACS Tutorials](https://gromacstutorials.github.io), tutorials for 
-  beginners using GROMACS
-- [MDCourse](https://mdcourse.github.io), a Python course 
-  on molecular simulations
-- [Gallery of Animations](https://www.youtube.com/@SimonGravelle) and 
-  [Molecular Art](https://simongravelle.github.io/gallery/), high-resolution 
-  renderings of molecules
+**Research Interest**
+
+* Computer Vision, Behavioral Analysis, Scene Understanding, Object tracking
+
+* Machine Learning, Deep Learning, Model Calibration, Continual Learning

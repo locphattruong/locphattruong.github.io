@@ -9,18 +9,18 @@ main:
   - name: Home
     url: '/index.html'
     weight: 10
-  - name: News
-    url: '/news.html'
-    weight: 30
+  # - name: News
+  #   url: '/news.html'
+  #   weight: 30
   - name: Publications
     url: '/publication.html'
     weight: 40
-#  - name: Blog
-#    url: '/blog/'
-#    weight: 60
- # - name: CV
- #   url: '/files/cv.pdf'
- #   weight: 70
+  # - name: Blog
+  #   url: '/blog/'
+  #   weight: 60
+  - name: CV
+    url: 'files/resume/phattruong_resume_faang.pdf'
+    weight: 70
   
 # Sub-home menu
 #  - name: About
@@ -46,6 +46,6 @@ main:
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+  # - name: CV
+  #   url: uploads/resume.pdf
+  #   weight: 70

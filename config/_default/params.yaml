@@ -6,6 +6,7 @@
 # Appearance
 
 appearance:
+  mode: dark
   theme_day: minimal
   theme_night: minimal
   font: custom_font
@@ -19,7 +20,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'Personal page'
-    twitter: 'Gravellesimon'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,7 +44,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Simon Gravelle. This work is licensed under {license}.'
+    notice: '© {year} Loc-Phat Truong. This work is licensed under {license}.'
     license:
       enable: true
       allow_derivatives: true
@@ -70,11 +71,11 @@ features:
       - r
       - latex
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/simongravelle/simongravelle.github.io'
+    url: 'https://github.com/sheldontruong/sheldontruong.github.io'
     content_dir: content
     branch: master
   avatar:
