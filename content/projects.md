@@ -11,11 +11,23 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Personal
+      text: Some of my personal/student projects and hobbies
       filters:
         folders:
-          - projects
+          - personal-project
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+
+  - block: collection
+    content:
+      title: Industrial Projects
+      text: Showcase outcome of some selected projects I implemented in the industry
+      filters:
+        folders:
+          - industrial-project
     design:
       view: article-grid
       fill_image: false

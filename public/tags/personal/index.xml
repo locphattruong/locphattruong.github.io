@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal | Loc-Phat Truong</title>
+    <link>http://localhost:1313/tags/personal/</link>
+      <atom:link href="http://localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Personal</title>
+      <link>http://localhost:1313/tags/personal/</link>
+    </image>
+    
+    <item>
+      <title>Dive into Deep Learning Book translation to Vietnamese</title>
+      <link>http://localhost:1313/personal-project/book-translation/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal-project/book-translation/</guid>
+      <description>&lt;p&gt;I contributed to the translation project of the popular “Dive into Deep Learning” book into Vietnamese. This project involved translating complex machine learning concepts and examples into clear and accurate Vietnamese, making this important resource accessible to a wider audience. My work ensured that the technical accuracy of the content was preserved while also tailoring the language for Vietnamese learners, helping to bridge the gap between global research and local development.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Link to the book: 
+, 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link to the project: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

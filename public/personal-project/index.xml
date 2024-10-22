@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal-Projects | Loc-Phat Truong</title>
+    <link>http://localhost:1313/personal-project/</link>
+      <atom:link href="http://localhost:1313/personal-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Personal-Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
+      <title>Personal-Projects</title>
+      <link>http://localhost:1313/personal-project/</link>
+    </image>
+    
+    <item>
+      <title>Badminton Self-Learning</title>
+      <link>http://localhost:1313/personal-project/badminton-myself-recording/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal-project/badminton-myself-recording/</guid>
+      <description>&lt;p&gt;I could have chosen to learn badminton from a tutor, but I genuinely enjoy figuring things out by myself. Three years ago, I was a complete beginner in the sport, just like anyone starting something new. However, I was determined to become better on my own terms. With a full-time job during the week and weekends dedicated to playing badminton with friends, I had to find a way to improve without sacrificing time for fun.&lt;/p&gt;
+&lt;p&gt;I watched countless tutorials and taught myself the fundamentals—focusing on key aspects like basic swings, body mechanics, and how to efficiently use my wrist, arm, shoulder, and hips to create a powerful yet natural movement. I took a bottom-up approach, mastering one element at a time, and prioritizing consistency over speed.&lt;/p&gt;
+&lt;p&gt;The most crucial part of my self-learning journey was feedback. Much like how neural networks require gradients to learn, I needed my own way of assessing progress. I started recording my sessions, analyzing my movements, and comparing them with elite players to ensure I was on track. Even after sustaining injuries, like one time with wrist arthritis and multiple ankle sprain, my focus on correcting posture and movement only deepened.&lt;/p&gt;
+&lt;p&gt;This journey led me to create this 
+, where I document and share my progress over the last three years (quite a few views, but I was not creating this for any fame-related purpose in the first place &amp;#x1f601; I usually put most of them in &amp;ldquo;Unlisted&amp;rdquo; so that only those who have the URLs can view).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-contact-at-the-right-height&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /personal-project/badminton-myself-recording/analysis_hu15377513887755816262.webp 400w,
+               /personal-project/badminton-myself-recording/analysis_hu3126738961515305343.webp 760w,
+               /personal-project/badminton-myself-recording/analysis_hu8394950593184476970.webp 1200w&#34;
+               src=&#34;http://localhost:1313/personal-project/badminton-myself-recording/analysis_hu15377513887755816262.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;348&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Contact at the right height?
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyroscope and accelerometer sensor to detect tennis actions and measure swings metrics during a match. I immediately thought it could adapt to badminton because their nature are similar to some extend. However, the accuracy turned out to be average on badminton-specific actions.  Unstoppably, I attempted to retrieve the raw data from the Apple Watch to build my own ML model tailored to badminton, but I hit a roadblock as the data was partially censored for the level of analysis I needed and I had to stop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-smash-swing-speed&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /personal-project/badminton-myself-recording/smash_hu9256864800898542354.webp 400w,
+               /personal-project/badminton-myself-recording/smash_hu17043342426305707595.webp 760w,
+               /personal-project/badminton-myself-recording/smash_hu14812888860245461851.webp 1200w&#34;
+               src=&#34;http://localhost:1313/personal-project/badminton-myself-recording/smash_hu9256864800898542354.webp&#34;
+               width=&#34;351&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Smash Swing Speed
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-backhand-swing-speed&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;image&#34; srcset=&#34;
+               /personal-project/badminton-myself-recording/backhand_hu15048658460527657431.webp 400w,
+               /personal-project/badminton-myself-recording/backhand_hu8958219952573106104.webp 760w,
+               /personal-project/badminton-myself-recording/backhand_hu11232283587465448134.webp 1200w&#34;
+               src=&#34;http://localhost:1313/personal-project/badminton-myself-recording/backhand_hu15048658460527657431.webp&#34;
+               width=&#34;351&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Backhand Swing Speed
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Having said that, the process of recording and reviewing not only helped me improve, but also brought joy and lasting memories. It allowed me and my friends to analyze our games, discuss what made a point good or bad, and foster a positive learning environment where we could all improve together.&lt;/p&gt;
+&lt;p&gt;Today, I have to pause this hobby as I’m flying to another country to pursue my studies. Although I’m stepping away from badminton temporarily, this self-learning journey has reinforced how I approach other challenges in my life. I plan to apply to language study because language is crucial to survive in a new country even though I am not that interested in language.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dive into Deep Learning Book translation to Vietnamese</title>
+      <link>http://localhost:1313/personal-project/book-translation/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/personal-project/book-translation/</guid>
+      <description>&lt;p&gt;I contributed to the translation project of the popular “Dive into Deep Learning” book into Vietnamese. This project involved translating complex machine learning concepts and examples into clear and accurate Vietnamese, making this important resource accessible to a wider audience. My work ensured that the technical accuracy of the content was preserved while also tailoring the language for Vietnamese learners, helping to bridge the gap between global research and local development.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Link to the book: 
+, 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link to the project: 
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
