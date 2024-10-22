@@ -54,7 +54,7 @@ education:
     institution: Universitat Autònoma de Barcelona (UAB), Universitat de Barcelona (UB), Universitat Pompeu Fabra (UPF), Universitat Politècnica de Catalunya (UPC), Universitat Oberta de Catalunya (UOC)
     date_start: 2024-09-30
     date_end: 
-  - area: BSc Mechatronics Engineering
+  - area: BE Mechatronics Engineering
     institution: Ho Chi Minh City University of Technology and Education (HCMUTE)
     date_start: 2015-09-01
     date_end: 2020-04-16
