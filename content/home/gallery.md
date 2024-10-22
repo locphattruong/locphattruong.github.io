@@ -8,6 +8,8 @@ subtitle: ''
 content:
   page_type: gallery
   filter_default: 0
+folder:
+  - gallery
 design:
   columns: '1'
   # Toggle between the various page layout types.

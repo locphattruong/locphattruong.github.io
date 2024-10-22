@@ -13,10 +13,10 @@ main:
   #   url: '/news.html'
   #   weight: 30
   - name: Publications
-    url: '/publication.html'
+    url: publication/
     weight: 30
-  - name: Blog
-    url: '/gallery/fullrene'
+  - name: Projects
+    url: projects/
     weight: 40
   - name: CV
     url: 'files/resume/phattruong_resume_faang.pdf'
