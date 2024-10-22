@@ -69,7 +69,7 @@ highlight_name: true # Highlight the author in author lists? (true/false)
 
 I am currently pursueing a [Joint Master's degree in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain with interests in Computer vision, Scene Understanding, Continual Learning and Deep Learning.
 
-Prior to this, I worked as a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a US-based advertising platform, where I specialized in Programmatic Advertising utilizing Machine Learning and Data Science. My favorite topic here was Continual Learning in industrial context. 
+Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a research division of Knorex, an advertising management and execution platform. At Knorex R&D Labs, I specialized in Programmatic Advertising utilizing Machine Learning and Data Science, with my favorite topic being Continual Learning in industrial context. 
 
 Before that, I was one of three core AI engineers at [SceneSeer](https://www.youtube.com/@sceneseer8871) - another US-based startup focused on potential Computer Vision technology and applications. I focused on Scene Understanding and OCR during this period.
 
