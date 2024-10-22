@@ -7,7 +7,7 @@ main:
   # - name: " "
   #   weight: 10
   - name: Home
-    url: '/index.html'
+    url: /
     weight: 20
   # - name: News
   #   url: '/news.html'
