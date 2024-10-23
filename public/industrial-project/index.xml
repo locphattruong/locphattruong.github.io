@@ -5,7 +5,7 @@
     <link>http://localhost:1313/industrial-project/</link>
       <atom:link href="http://localhost:1313/industrial-project/index.xml" rel="self" type="application/rss+xml" />
     <description>Industrial-Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
       <title>Industrial-Projects</title>
@@ -13,19 +13,56 @@
     </image>
     
     <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/industrial-project/multi-tracking/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industrial-project/multi-tracking/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <title>Click-through Rate Prediction for Online Ads</title>
+      <link>http://localhost:1313/industrial-project/ctr-predictor/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industrial-project/ctr-predictor/</guid>
+      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/industrial-project/ctr-predictor/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industrial-project/ctr-predictor/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <title>Multi people tracking in multiple views</title>
+      <link>http://localhost:1313/industrial-project/multi-tracking/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industrial-project/multi-tracking/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;In this project, I developed a system for tracking multiple individuals across multiple camera views, both overlapping and non-overlapping. The aim was to create a reliable solution for real-time tracking of people, which could be applied in various scenarios like public safety and surveillance. This showcase highlights the key results and methods used, focusing on the overall outcomes and the system’s capability, rather than the specific implementation details.&lt;/p&gt;
+&lt;h3 id=&#34;tracking-in-multiple-overlapping-views&#34;&gt;Tracking in Multiple Overlapping Views:&lt;/h3&gt;
+&lt;p&gt;This main component of the project focused on multi-person tracking across multiple overlapping camera views. In environments with multiple cameras covering the same region from different angles, the system was designed to identify and track individuals across these overlapping views. This was achieved primarily by a tailored appearance-based method based on person re-identification model in addition with data association techniques. For simplicity, I completely excluded people trajectory, motion and position prediction from this project. However, the combination of person re-ID features accross multiple views appeared to be simple yet robust against occlusion or discontinuity in occurrence. The only limitation was the generalization to different scenarios and conditions, as various similarity thresholds were empirically determined.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://youtu.be/rdDCk8k9cE0?si=Ll-P2IeziFx_PMDm&#34; type=&#34;video/&#34;&gt;
+&lt;/video&gt;
+
+&lt;h3 id=&#34;adaptation-to-additional-non-overlapping-views&#34;&gt;Adaptation to Additional Non-Overlapping Views:&lt;/h3&gt;
+&lt;p&gt;The system then showed a well adaptability when extending to handle non-overlapping views, where additional cameras do not share a common field of vision. This still required a person to appear in at least two overlapping cameras at the beginning. As long as associated features were initialized in the database, the system no longer need overlapping cameras to track people.&lt;/p&gt;
+&lt;h3 id=&#34;practical-applications-in-ongoing-criminal-actions-and-loitering-detection&#34;&gt;Practical Applications in Ongoing Criminal Actions and Loitering Detection:&lt;/h3&gt;
+&lt;p&gt;To illustrate practical applications, this tracking system was then utilized to detect crime in progress and loitering in public spaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Crime in Progress Detection: The system can be integrated with object detection and human gesture models to detect criminal signals in real time, such as weapons, facial masks and surrender postures. As the result, the system can identify and follow perpetrators in different views.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Loitering Detection: The system monitors how long a person remains in a particular area. If an individual is observed to be loitering, especially in restricted or sensitive areas, an alert can be triggered for security personnel to investigate.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

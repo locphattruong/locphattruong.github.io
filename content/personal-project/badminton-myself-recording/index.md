@@ -20,6 +20,6 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 Having said that, the process of recording and reviewing not only helped me improve, but also brought joy and lasting memories. It allowed me and my friends to analyze our games, discuss what made a point good or bad, and foster a positive learning environment where we could all improve together.
 
-Today, I have to pause this hobby as I’m flying to another country to pursue my studies. Although I’m stepping away from badminton temporarily, this self-learning journey has reinforced how I approach other challenges in my life. I plan to apply to language study because language is crucial to survive in a new country even though I am not that interested in language.
+Today, I have to pause this hobby as I’m flying to another country to pursue my studies. Although I’m stepping away from badminton temporarily, this self-learning journey has reinforced how I approach other challenges in my life.
 
 <!--more-->
