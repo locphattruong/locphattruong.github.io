@@ -63,6 +63,14 @@ education:
 
       Thesis grade Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System.
 work:
+  - position: Research Fellow Intern
+    company_name: Computer Vision Center
+    company_url: 'https://www.cvc.uab.es/about-us/'
+    company_logo: ''
+    date_start: 2024-10-25
+    date_end: 
+    summary: |2-
+      Work in the MSIAU group under supervision of Professor Daniel Ponsa.
   - position: Data Scientist
     company_name: Knorex R&D Labs
     company_url: 'https://www.knorex.com/research-and-development'
@@ -135,6 +143,13 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Maria Capdevila Research Fellowship
+    url: https://www.cvc.uab.es/internship/
+    date: '2024-10-25'
+    awarder: Computer Vision Center
+    icon: 
+    summary: |
+      This award is intended to let students identify all the necessary components to solve a specific computer vision and AI problem, evaluate the resulting system, and elaborate a report that describes the achieved results together with the selected algorithms and models.
   - title: The honorable mention at Cough-based Covid-19 Detection Challenge
     url: https://www.covid.aihub.vn/
     date: '2021-08-25'
@@ -164,10 +179,8 @@ awards:
 
 ## About Me
 
-I am currently pursueing a [Joint Master's degree in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
+I am currently a postgraduate student of the program [Master in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain, as well as Research Fellow Intern at [Computer Vision Center](https://www.cvc.uab.es/about-us/) supervised by Professor [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524).
 
-Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) - a research division of Knorex, an advertising management and execution platform. At Knorex R&D Labs, I specialized in Programmatic Advertising utilizing Machine Learning and Data Science, with my favorite topic being Continual Learning in industrial context. 
+Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising utilizing Machine Learning and Data Science, with topics focused on User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
 
-Before that, I was one of three core AI engineers at [SceneSeer](https://www.youtube.com/@sceneseer8871) - another US-based startup focused on potential Computer Vision technology and applications. I focused on Scene Understanding and OCR during this period.
-
-I hold a Bachelor's degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis work focused on Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System.
+I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.
