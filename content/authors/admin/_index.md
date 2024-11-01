@@ -183,4 +183,4 @@ I am currently a postgraduate student of the program [Master in Computer Vision]
 
 Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising utilizing Machine Learning and Data Science, with topics focused on User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
 
-I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.
+I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Viet Nam, where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.
