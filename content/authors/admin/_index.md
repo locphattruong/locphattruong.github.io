@@ -67,7 +67,7 @@ work:
     company_name: Computer Vision Center
     company_url: 'https://www.cvc.uab.es/about-us/'
     company_logo: ''
-    date_start: 2024-10-25
+    date_start: 2024-11-01
     date_end: 
     summary: |2-
       Work in the MSIAU group under supervision of Professor Daniel Ponsa.
