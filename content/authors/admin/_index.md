@@ -34,7 +34,7 @@ profiles:
     url: 'mailto:phattruong.psn@gmail.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/sheldontruong
+    url: https://github.com/locphattruong
     display:
       header: true
   - icon: brands/linkedin
