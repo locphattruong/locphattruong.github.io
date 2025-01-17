@@ -71,18 +71,17 @@ work:
     date_end: 
     summary: |2-
       Work in the MSIAU group under supervision of Professor Daniel Ponsa.
-  - position: Data Scientist
+  - position: Data Scientist (L3)
     company_name: Knorex R&D Labs
     company_url: 'https://www.knorex.com/research-and-development'
     company_logo: ''
     date_start: 2022-01-13
     date_end: 2024-10-04
     summary: |2-
-      - Joined as Level 2 (L2), promoted to L3 next year.
-      - Business problems: ads viewability, click-through rate (CTR), and conversion rate (CVR) optimization for online advertising, operating as both real-time and batch prediction.
-      - Research topics: online learning, contextual bandit, user-context features interaction, machine learning, tabular deep learning, model calibration.
-      - Delivered prototypes and deployed deep learning model at a scale of millions of requests per second.
-      - Coordinated the development and integration of MLOPs concept to the current ML system.
+      - Business problems: Ads Ranking, User Response Optimization, Real-time Bidding.
+      - Research topics: Online Learning, Contextual Bandit, Machine Learning, Tabular Deep Learning, Model Calibration.
+      - Implemented prototypes and deployed deep learning model at scale - millions of requests per second.
+      - Navigate MLOps integration and development.
   - position: Core AI Engineer (Computer Vision)
     company_name: SceneSeer
     company_url: ''
@@ -90,11 +89,8 @@ work:
     date_start: 2019-12-01
     date_end: 2021-06-30
     summary: |2-
-      * As one of three core engineers, I play a pivotal role in building the foundational AI infrastructure for our startup.
-
-      * Skill: Computer Vision, Deep learning, AWS, Docker
-      * Build prototypes of criminal surveillance system, fall slip detection, loitering detection.
-      * Build production-ready OCR system for commercial project - MEDICTECH Expanse Electronic health record (EHR)
+      - Built and delivered OCR system to client’s production - [MEDITECH Expanse](https://ehr.meditech.com/ehr-solutions/meditech-expanse).
+      - Implemented computer vision [prototypes](https://www.youtube.com/@sceneseer8871/videos) (fall detection, facial mask detection, multi-object multi-view tracking). 
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -181,6 +177,6 @@ awards:
 
 I am currently a postgraduate student of the program [Master in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain, as well as Research Fellow Intern at [Computer Vision Center](https://www.cvc.uab.es/about-us/) supervised by Professor [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524).
 
-Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising utilizing Machine Learning and Data Science, with topics focused on User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
+Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising, Ads Ranking, User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
 
 I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Viet Nam, where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.

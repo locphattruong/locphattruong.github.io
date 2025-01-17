@@ -23,7 +23,7 @@ main:
     url: projects/
     weight: 40
   - name: CV
-    url: uploads/phattruong_resume_faang.pdf
+    url: uploads/academic_cv.pdf
   # - name: Teaching
   #   url: teaching/
   #   weight: 50
