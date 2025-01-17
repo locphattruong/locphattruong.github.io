@@ -70,7 +70,7 @@ work:
     date_start: 2024-11-01
     date_end: 
     summary: |2-
-      Work in the MSIAU group under supervision of Professor Daniel Ponsa.
+      Satelite Image Analysis, Hyperspectral Image Analysis, Single ImageSuper Resolution
   - position: Data Scientist (L3)
     company_name: Knorex R&D Labs
     company_url: 'https://www.knorex.com/research-and-development'
@@ -78,19 +78,15 @@ work:
     date_start: 2022-01-13
     date_end: 2024-10-04
     summary: |2-
-      - Business problems: Ads Ranking, User Response Optimization, Real-time Bidding.
-      - Research topics: Online Learning, Contextual Bandit, Machine Learning, Tabular Deep Learning, Model Calibration.
-      - Implemented prototypes and deployed deep learning model at scale - millions of requests per second.
-      - Navigate MLOps integration and development.
-  - position: Core AI Engineer (Computer Vision)
+      Programmatic Advertising, Ads Ranking, User Response Optimization, Real-time Bidding, Online Learning, Contextual Bandit, Machine Learning, Tabular Deep Learning, Model Calibration, MLOps
+  - position: Core AI Engineer
     company_name: SceneSeer
     company_url: ''
     company_logo: ''
     date_start: 2019-12-01
     date_end: 2021-06-30
     summary: |2-
-      - Built and delivered OCR system to client’s production - [MEDITECH Expanse](https://ehr.meditech.com/ehr-solutions/meditech-expanse).
-      - Implemented computer vision [prototypes](https://www.youtube.com/@sceneseer8871/videos) (fall detection, facial mask detection, multi-object multi-view tracking). 
+      Computer Vision, Scene Understanding
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
