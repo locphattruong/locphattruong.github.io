@@ -41,11 +41,11 @@
       <link>http://localhost:1313/personal-project/badminton-myself-recording/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/personal-project/badminton-myself-recording/</guid>
-      <description>&lt;p&gt;I could have chosen to learn badminton from a tutor, but I genuinely enjoy figuring things out by myself. Three years ago, I was a complete beginner in the sport, just like anyone starting something new. However, I was determined to become better on my own terms. With a full-time job during the week and weekends dedicated to playing badminton with friends, I had to find a way to improve without sacrificing time for fun.&lt;/p&gt;
-&lt;p&gt;I watched countless tutorials and taught myself the fundamentals—focusing on key aspects like basic swings, body mechanics, and how to efficiently use my wrist, arm, shoulder, and hips to create a powerful yet natural movement. I took a bottom-up approach, mastering one element at a time, and prioritizing consistency over speed.&lt;/p&gt;
-&lt;p&gt;The most crucial part of my self-learning journey was feedback. Much like how neural networks require gradients to learn, I needed my own way of assessing progress. I started recording my sessions, analyzing my movements, and comparing them with elite players to ensure I was on track. Even after sustaining injuries, like one time with wrist arthritis and multiple ankle sprain, my focus on correcting posture and movement only deepened.&lt;/p&gt;
+      <description>&lt;p&gt;I could have chosen to learn badminton from a tutor, but I genuinely enjoy figuring things out by myself. Three years ago, I was a complete beginner in the sport, just like anyone starting something new.&lt;/p&gt;
+&lt;p&gt;I watched countless tutorials and self-taught the fundamentals. I focused on key aspects like basic swings, body mechanics to efficiently create a powerful-yet-natural movement using my wrist, arm, shoulder, and hips. I took a bottom-up approach, mastering one element at a time, and prioritizing consistency over speed.&lt;/p&gt;
+&lt;p&gt;The most crucial part of my self-learning journey was feedback. I started recording my sessions, analyzing my movements, and comparing them with pro players to ensure I was on track. Even after sustaining injuries—once with wrist arthritis and multiple times with ankle sprains—my focus on correcting posture and movement only grew stronger.&lt;/p&gt;
 &lt;p&gt;This journey led me to create this 
-, where I document and share my progress over the last three years (quite a few views, but I was not creating this for any fame-related purpose in the first place &amp;#x1f601; I usually put most of them in &amp;ldquo;Unlisted&amp;rdquo; so that only those who have the URLs can view).
+, where I documented and shared my progress over the last three years (quite a few views, but I was not creating this for any fame-related purpose in the first place &amp;#x1f601; I usually put most of them in &amp;ldquo;Unlisted&amp;rdquo; so that only those who have the URLs can view).
 
 
 
@@ -138,7 +138,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;Having said that, the process of recording and reviewing not only helped me improve, but also brought joy and lasting memories. It allowed me and my friends to analyze our games, discuss what made a point good or bad, and foster a positive learning environment where we could all improve together.&lt;/p&gt;
-&lt;p&gt;Today, I have to pause this hobby as I’m flying to another country to pursue my studies. Although I’m stepping away from badminton temporarily, this self-learning journey has reinforced how I approach other challenges in my life.&lt;/p&gt;</description>
+&lt;p&gt;Today, I have to pause this hobby with my friends as I’m flying to another country to pursue my studies. Although I’m stepping away from badminton temporarily, this self-learning journey has reinforced how I approach other challenges in my life.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -388,7 +388,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-398645217&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-827539146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -406,7 +406,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-398645217&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-827539146&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

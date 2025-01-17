@@ -12,7 +12,8 @@ design:
 sections:
   - block: markdown
     content:
-      text: Download my full CV [here](/uploads/academic_cv.pdf)
+      text: Download my full CV <a href="/uploads/academic_cv.pdf">here</a>.
+
   - block: resume-experience
     content:
       username: admin
