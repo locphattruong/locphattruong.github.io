@@ -45,9 +45,9 @@ profiles:
 interests:
   - Computer Vision
   - Scene Understanding
-  - Behavioral Analysis
-  - Continual Learning
+  - Image Processing
   - Deep Learning
+  - Continual Learning
 
 education:
   - area: MSc Computer Vision
