@@ -68,7 +68,7 @@ work:
     company_url: 'https://www.cvc.uab.es/about-us/'
     company_logo: ''
     date_start: 2024-11-01
-    date_end: 
+    date_end: 2025-03-17
     summary: |2-
       Satelite Image Analysis, Hyperspectral Image Analysis, Single ImageSuper Resolution
   - position: Data Scientist (L3)
