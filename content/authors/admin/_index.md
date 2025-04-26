@@ -169,10 +169,15 @@ awards:
       The scholarship for outstanding academic performance in the school year 2017-2018.
 ---
 
-## About Me
+## Welcome to my personal page
+[NEWS] I'm excited to share that I am conducting my Msc Thesis in [Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/) with Professor [Sergio Escalara](https://sergioescalera.com/#intro) and [Dr.Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). I work on the topic of Virtual Try-on and Image Generative Model.
 
-I am currently a postgraduate student of the program [Master in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain, as well as Research Fellow Intern at [Computer Vision Center](https://www.cvc.uab.es/about-us/) supervised by Professor [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524).
+## About me
 
-Prior to this, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising, Ads Ranking, User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
+I am currently a student of the program [Master in Computer Vision](https://mcv.uab.cat/) at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
+
+I was a Research Fellow Intern at [Computer Vision Center](https://www.cvc.uab.es/about-us/) supervised by Professor [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) from November 2024 to March 2025. I worked primarily on Image Super-Resolution and its adaptation capability on satelite images.
+
+In industry, I worked as a Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising, Ads Ranking, User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871), focused on Scene Understanding and OCR.
 
 I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Viet Nam, where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.
