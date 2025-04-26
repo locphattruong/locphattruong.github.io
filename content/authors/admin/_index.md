@@ -170,7 +170,7 @@ awards:
 ---
 
 ## Welcome to my personal page
-[NEWS] I'm excited to share that I am conducting my Msc Thesis in [Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/) with Professor [Sergio Escalara](https://sergioescalera.com/#intro) and [Dr.Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). I work on the topic of Virtual Try-on and Image Generative Model.
+**[NEWS]** I'm excited to share that I am conducting my Msc Thesis in [Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/) with [Professor Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). I work on the topic of Virtual Try-on and Image Generative Model.
 
 ## About me
 
