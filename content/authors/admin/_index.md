@@ -170,14 +170,13 @@ awards:
 ---
 
 ## Welcome to my personal page
-**[NEWS]** I'm excited to share that I am conducting my Msc Thesis in [Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/) with [Professor Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). I work on the topic of Virtual Try-on and Image Generative Model.
 
-## About me
+I am pursuing the [Master in Computer Vision](https://mcv.uab.cat/) program (2024–2025) at UAB, UOC, UPC, UPF, and UB in Barcelona, Spain. My current research for the Msc Thesis (April–September 2025) focuses on the reverse problem of Virtual Try-On: generating clean garment images from try-on outputs. This involves disentangling clothing appearance from the person and restoring garment details, leveraging generative models and human-centric understanding. I am co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en), as part of [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/).
 
-I am pursueing the program [Master in Computer Vision](https://mcv.uab.cat/) from Sep 2024 at UAB, UOC, UPC, UPF, UB in Barcelona, Spain.
+Previously, I was a Research Fellow Intern at the [Computer Vision Center](https://www.cvc.uab.es/about-us/) under the supervision of Prof. [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524), where I worked on Image Super-Resolution and its adaptation for satellite imagery (Nov 2024 – Mar 2025).
 
-I was a Research Fellow Intern at [Computer Vision Center](https://www.cvc.uab.es/about-us/) supervised by Professor [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) from November 2024 to March 2025. I worked primarily on Image Super-Resolution and its adaptation capability on satelite images.
+Before entering academia, I spent over four years in industry. Most recently, I was a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) (Jan 2022 – Oct 2024), specializing in programmatic advertising, user response prediction, ads ranking, and continual learning. I was advised there by [Yiping Jin](https://yipingnus.github.io/). Earlier, I was a core AI engineer at the U.S.-based startup SceneSeer (2019–2021), where I helped develop products in scene understanding and OCR.
 
-In industry, I worked as Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development) from Jan 2022 to Oct 2024, where I was advised by [Yiping Jin](https://yipingnus.github.io/). My specialization here was Programmatic Advertising, Ads Ranking, User Response Prediction and Continual Learning. Before joining Knorex, I was a core AI engineers at the US-based startup [SceneSeer](https://www.youtube.com/@sceneseer8871) from 2019 to 2021, building products around Scene Understanding and OCR.
+I hold a Bachelor’s degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Vietnam, where my thesis focused on image classification, CNN visual explanation, and real-time integration with mechatronic systems.
 
-I hold a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Viet Nam, where my thesis focused on Image Classification, CNN Visual Explanation and Real-time Integration with Mechatronics System.
+I am passionate about research in Computer Vision, particularly at the intersection of generative models, human-centric understanding, and visual learning. I am currently exploring PhD opportunities where I can contribute to these or related fields.
