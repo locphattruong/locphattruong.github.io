@@ -171,7 +171,9 @@ awards:
 
 ## Welcome to my personal page
 
-I focus on research in Computer Vision, particularly at the intersection of generative models, human-centric understanding, and visual learning. I am currently exploring PhD opportunities where I can contribute to these or related areas.
+My research interests focus on Computer Vision, particularly at the intersection of generative models, human-centric understanding, and visual learning. I am currently exploring PhD opportunities where I can contribute to these or related areas.
+
+## Background
 
 I am pursuing the [Master in Computer Vision](https://mcv.uab.cat/) program (2024–2025) at UAB, UOC, UPC, UPF, and UB in Barcelona, Spain. My current research for the Msc Thesis (Apr – Sep 2025) focuses on the reverse problem of Virtual Try-On: generating original clean garment images from try-on outputs. This involves disentangling clothing appearance from the person and restoring garment details, leveraging controllable generative models and human pose constraints understanding. I am co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en), as part of [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/).
 
