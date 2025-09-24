@@ -10,6 +10,34 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/tags/academic/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/hugo-blox/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/news/tfm-defence/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/news/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/news/extend-researchstay/</loc>
+    <lastmod>2025-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/personal-project/badminton-myself-recording/</loc>
     <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -22,10 +50,6 @@
     <lastmod>2024-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-09-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-05-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,19 +58,7 @@
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/tags/academic/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo-blox/</loc>
-    <lastmod>2023-10-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2023-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

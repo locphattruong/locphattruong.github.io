@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Loc-Phat Truong</title>
+    <link>http://localhost:1313/news/</link>
+      <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
+      <title>News</title>
+      <link>http://localhost:1313/news/</link>
+    </image>
+    
+    <item>
+      <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group 😁</title>
+      <link>http://localhost:1313/news/tfm-defence/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
+      <link>http://localhost:1313/news/extend-researchstay/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/extend-researchstay/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -37,6 +37,22 @@
     </item>
     
     <item>
+      <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group 😁</title>
+      <link>http://localhost:1313/news/tfm-defence/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
+      <link>http://localhost:1313/news/extend-researchstay/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/extend-researchstay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Badminton Self-Learning</title>
       <link>http://localhost:1313/personal-project/badminton-myself-recording/</link>
       <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
@@ -388,7 +404,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-827539146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-924863517&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -406,7 +422,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-827539146&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-924863517&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

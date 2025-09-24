@@ -5,12 +5,28 @@
     <link>http://localhost:1313/tags/hugo-blox/</link>
       <atom:link href="http://localhost:1313/tags/hugo-blox/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo Blox</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
       <title>Hugo Blox</title>
       <link>http://localhost:1313/tags/hugo-blox/</link>
     </image>
+    
+    <item>
+      <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group 😁</title>
+      <link>http://localhost:1313/news/tfm-defence/</link>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
+      <link>http://localhost:1313/news/extend-researchstay/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/extend-researchstay/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>🎉 Easily create your own simple yet highly customizable blog</title>
@@ -138,7 +154,7 @@
 
 
 
-&lt;div id=&#34;chart-827539146&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-924863517&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -156,7 +172,7 @@
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-827539146&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-924863517&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

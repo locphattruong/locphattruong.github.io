@@ -42,26 +42,6 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=N3fuK8UAAAAJ
 
-interests:
-  - Computer Vision
-  - Scene Understanding
-  - Image Processing
-  - Deep Learning
-  - Continual Learning
-
-education:
-  - area: MSc Computer Vision
-    institution: Universitat Autònoma de Barcelona (UAB), Universitat de Barcelona (UB), Universitat Pompeu Fabra (UPF), Universitat Politècnica de Catalunya (UPC), Universitat Oberta de Catalunya (UOC)
-    date_start: 2024-09-30
-    date_end: 
-  - area: BE Mechatronics Engineering
-    institution: Ho Chi Minh City University of Technology and Education (HCMUTE)
-    date_start: 2015-09-01
-    date_end: 2020-04-16
-    summary: |
-      GPA: 7.99/10
-
-      Thesis grade Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System.
 work:
   - position: Research Fellow Intern
     company_name: Computer Vision Center
@@ -171,14 +151,9 @@ awards:
 
 ## Welcome to my personal page
 
-My name is Phat. I was a ML/DL practitioner for several years in the industry setting, focusing on a wide range of practical issues, but now I just feel that I want to dig deeper and create novel things. My research interests focus on Computer Vision, particularly at the intersection of generative models, human understanding, and visual learning. I am currently exploring PhD opportunities where I can contribute to these or related areas.
+My name is Phat Truong. I'm a research collaborator with [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/), Universitat de Barcelona, working on Virtual Try-On.
+My research interests focus on image generative models, human understanding, and multimodality. I am currently exploring PhD opportunities where I can contribute to these or related areas.
 
-## Background
-
-I am pursuing the [Master in Computer Vision](https://mcv.uab.cat/) program (2024–2025) at UAB, UOC, UPC, UPF, and UB in Barcelona, Spain. My current research for the Msc Thesis focuses on the reverse problem of Virtual Try-On: generating original clean garment images from try-on outputs. I am co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en), as part of [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/).
-
-Previously, I was a Research Fellow Intern at the [Computer Vision Center](https://www.cvc.uab.es/about-us/) under the supervision of Prof. [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524), where I worked on Image Super-Resolution and its adaptation for satellite imagery.
-
-Before entering academia, I spent over four years in industry. Most recently, I was a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), exploring programmatic advertising, user response forecasting, and ads ranking. I worked there with [Yiping Jin](https://yipingnus.github.io/), an inspiring guy. Earlier, I was a founding AI engineer at SceneSeer - a startup in USA, where we attempted to register a US patent for a cloud-based criminal scene prediction system (but failed).
-
-I hold a Bachelor’s degree in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Vietnam, where my thesis focused on image classification, CNN visual explanation, and real-time integration with mechatronic systems.
+In 2025, I obtained an [Msc in Computer Vision](https://mcv.uab.cat/), a joint program by UAB, UOC, UPC, UPF, and UB in Barcelona, Spain. My Master thesis was co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en), as part of [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/).
+Previously, I received a fellowship to pursue a research internship in Image Super-Resolution and Hyperspectral Imaging with Prof. [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) at [Computer Vision Center](https://www.cvc.uab.es/about-us/).
+Before returning to academia, I spent over four years in industry. Until 2024, I was a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), exploring programmatic advertising, user response forecasting, and ads ranking. I worked there with [Yiping Jin](https://yipingnus.github.io/). Earlier, I was a founding AI engineer at SceneSeer - a startup in USA, where we attempted to register a US patent for a cloud-based criminal scene prediction system (but failed 😅). Previously, I graduated in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Ho Chi Minh City, Vietnam.
