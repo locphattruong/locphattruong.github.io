@@ -46,7 +46,11 @@ education:
   - area: MSc Computer Vision
     institution: Universitat Autònoma de Barcelona (UAB), Universitat de Barcelona (UB), Universitat Pompeu Fabra (UPF), Universitat Politècnica de Catalunya (UPC), Universitat Oberta de Catalunya (UOC)
     date_start: 2024-09-30
-    date_end: 
+    date_end: 2025-09-16
+    summary: |
+      GPA: 8.15/10
+
+      Thesis: Virtual Try-Off with Diffusion Model - A Systematic Study Toward State-of-the-Art (Grade: 9.4/10).
   - area: BE Mechatronics Engineering
     institution: Ho Chi Minh City University of Technology and Education (HCMUTE)
     date_start: 2015-09-01
@@ -54,7 +58,7 @@ education:
     summary: |
       GPA: 7.99/10
 
-      Thesis grade Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System.
+      Thesis: Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System (9.2/10).
 
 work:
   - position: Research Fellow Intern
@@ -65,7 +69,7 @@ work:
     date_end: 2025-03-17
     summary: |2-
       Satelite Image Analysis, Hyperspectral Image Analysis, Single ImageSuper Resolution
-  - position: Data Scientist (L3)
+  - position: Senior Data Scientist
     company_name: Knorex R&D Labs
     company_url: 'https://www.knorex.com/research-and-development'
     company_logo: ''
@@ -73,7 +77,7 @@ work:
     date_end: 2024-10-04
     summary: |2-
       Programmatic Advertising, Ads Ranking, User Response Optimization, Real-time Bidding, Online Learning, Contextual Bandit, Machine Learning, Tabular Deep Learning, Model Calibration, MLOps
-  - position: Core AI Engineer
+  - position: Founding AI Engineer
     company_name: SceneSeer
     company_url: ''
     company_logo: ''
