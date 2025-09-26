@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Master in Computer Vision 
+role: Research Collaborator 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: UAB, UOC, UPC, UPF, UB
-    url: https://mcv.uab.cat/
+  - name: HuPBA, CVC, UB
+    url: https://sergioescalera.com/students/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -51,7 +51,7 @@ work:
     date_end: 2025-03-17
     summary: |2-
       Satelite Image Analysis, Hyperspectral Image Analysis, Single ImageSuper Resolution
-  - position: Data Scientist (L3)
+  - position: Senior Data Scientist
     company_name: Knorex R&D Labs
     company_url: 'https://www.knorex.com/research-and-development'
     company_logo: ''
@@ -59,7 +59,7 @@ work:
     date_end: 2024-10-04
     summary: |2-
       Programmatic Advertising, Ads Ranking, User Response Optimization, Real-time Bidding, Online Learning, Contextual Bandit, Machine Learning, Tabular Deep Learning, Model Calibration, MLOps
-  - position: Core AI Engineer
+  - position: Founding AI Engineer
     company_name: SceneSeer
     company_url: ''
     company_logo: ''
