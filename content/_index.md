@@ -99,13 +99,13 @@ sections:
   
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications
       text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
-      count: 1
+      count: 0
     design:
       view: citation
 ---

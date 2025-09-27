@@ -37,6 +37,14 @@
     </item>
     
     <item>
+      <title>Virtual Try-Off with Diffusion Models: A Systematic Study Toward State-of-the-Art</title>
+      <link>http://localhost:1313/publication/2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group 😁</title>
       <link>http://localhost:1313/news/tfm-defence/</link>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
@@ -404,7 +412,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-924863517&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-463218597&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -422,7 +430,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-924863517&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-463218597&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1074,9 +1082,9 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>A Mobile Deep Convolutional Neural Network Combined with Grad-CAM Visual Explanations for Real Time Tomato Quality Classification System</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/2020/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/2020/</guid>
       <description></description>
     </item>
     

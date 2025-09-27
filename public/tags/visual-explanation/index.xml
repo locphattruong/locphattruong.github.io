@@ -5,12 +5,20 @@
     <link>http://localhost:1313/tags/visual-explanation/</link>
       <atom:link href="http://localhost:1313/tags/visual-explanation/index.xml" rel="self" type="application/rss+xml" />
     <description>Visual Explanation</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
       <title>Visual Explanation</title>
       <link>http://localhost:1313/tags/visual-explanation/</link>
     </image>
+    
+    <item>
+      <title>Virtual Try-Off with Diffusion Models: A Systematic Study Toward State-of-the-Art</title>
+      <link>http://localhost:1313/publication/2025/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Mobile Deep Convolutional Neural Network Combined with Grad-CAM Visual Explanations for Real Time Tomato Quality Classification System</title>
@@ -22,9 +30,9 @@
     
     <item>
       <title>A Mobile Deep Convolutional Neural Network Combined with Grad-CAM Visual Explanations for Real Time Tomato Quality Classification System</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
+      <link>http://localhost:1313/publication/2020/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <guid>http://localhost:1313/publication/2020/</guid>
       <description></description>
     </item>
     
