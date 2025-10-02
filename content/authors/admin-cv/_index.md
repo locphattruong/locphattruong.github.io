@@ -48,17 +48,13 @@ education:
     date_start: 2024-09-30
     date_end: 2025-09-16
     summary: |
-      GPA: 8.15/10
-
       Thesis: Virtual Try-Off with Diffusion Model - A Systematic Study Toward State-of-the-Art (Grade: 9.4/10).
   - area: BE Mechatronics Engineering
     institution: Ho Chi Minh City University of Technology and Education (HCMUTE)
     date_start: 2015-09-01
     date_end: 2020-04-16
     summary: |
-      GPA: 7.99/10
-
-      Thesis: Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System (9.2/10).
+       Thesis: Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System (9.2/10).
 
 work:
   - position: Research Fellow Intern
@@ -146,7 +142,7 @@ awards:
     awarder: Group AICovidVN
     icon: 
     summary: |
-      Stayed in the top 30 highest scores in both 2 phases of this cough audio classification challenge. I and a teammate tried to build hybrid CNN-RNN model to classify the cough sound of healthy and covid-infected person.
+      Stayed in the top 30 highest scores in a cough audio classification challenge.
   - title: Amazon Web Services Certified Machine Learning – Specialty
     url: https://aws.amazon.com/certification/certified-machine-learning-specialty/
     certificate_url: https://www.credly.com/badges/6f5e4192-41fc-4418-b268-ac7dc2dc81c5
@@ -156,13 +152,13 @@ awards:
     summary: |
       Score: 941/1000
   - title: The best thesis award
-    date: '2020-04-16'
+    date: '2020'
     awarder: HCMUTE
     summary: |
       The award for the top highest score thesis of all students graduating this year.
   - title: Study Encouragement Scholarship
-    date: '2017-08-16'
+    date: 
     awarder: HCMUTE
     summary: |
-      The scholarship for outstanding academic performance in the school year 2017-2018.
+      The scholarship for outstanding academic performance.
 ---
