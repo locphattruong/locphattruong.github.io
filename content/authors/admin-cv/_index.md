@@ -57,6 +57,14 @@ education:
        Thesis: Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System (9.2/10).
 
 work:
+  - position: Visiting Researcher
+    company_name: Universitat de Barcelona
+    company_url: 'https://www.cvc.uab.es/about-us/'
+    company_logo: ''
+    date_start: 2025-09-22
+    date_end:
+    summary: |2-
+      Virtual Try-On with Vitonify Dataset
   - position: Research Fellow Intern
     company_name: Computer Vision Center
     company_url: 'https://www.cvc.uab.es/about-us/'
@@ -152,12 +160,12 @@ awards:
     summary: |
       Score: 941/1000
   - title: The best thesis award
-    date: '2020'
+    date: '2020-04-13'
     awarder: HCMUTE
     summary: |
       The award for the top highest score thesis of all students graduating this year.
   - title: Study Encouragement Scholarship
-    date: 
+    date:
     awarder: HCMUTE
     summary: |
       The scholarship for outstanding academic performance.

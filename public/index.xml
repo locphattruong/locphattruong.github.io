@@ -45,18 +45,18 @@
     </item>
     
     <item>
-      <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group 😁</title>
-      <link>http://localhost:1313/news/tfm-defence/</link>
+      <title>I extended my research stay in Human Pose Recovery and Behavior Analysis (HuPBA) group contributing to Vitonify Research Project 😁</title>
+      <link>http://localhost:1313/news/extend-researchstay/</link>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <guid>http://localhost:1313/news/extend-researchstay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
-      <link>http://localhost:1313/news/extend-researchstay/</link>
+      <link>http://localhost:1313/news/tfm-defence/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/extend-researchstay/</guid>
+      <guid>http://localhost:1313/news/tfm-defence/</guid>
       <description></description>
     </item>
     
@@ -412,7 +412,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-463218597&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-549812637&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -430,7 +430,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-463218597&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-549812637&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
