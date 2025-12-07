@@ -2,3 +2,4 @@ _vendor
 *hugo_build*
 go.sum
 hugo_stats.json
+*.DS_Store*

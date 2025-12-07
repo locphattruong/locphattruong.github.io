@@ -5,7 +5,7 @@
     <link>http://localhost:1313/tags/virtual-try-off/</link>
       <atom:link href="http://localhost:1313/tags/virtual-try-off/index.xml" rel="self" type="application/rss+xml" />
     <description>Virtual Try-Off</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
       <title>Virtual Try-Off</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Virtual Try-Off with Diffusion Models: A Systematic Study Toward State-of-the-Art</title>
-      <link>http://localhost:1313/publication/2025/</link>
+      <title>MV-Fashion: Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data</title>
+      <link>http://localhost:1313/publication/2025hunormvfashion/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/2025hunormvfashion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What Matters in Virtual Try-Off? Adapting Dual-UNet Virtual Try-On Architectures</title>
+      <link>http://localhost:1313/publication/2025phatvtoff/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/2025/</guid>
+      <guid>http://localhost:1313/publication/2025phatvtoff/</guid>
       <description></description>
     </item>
     
