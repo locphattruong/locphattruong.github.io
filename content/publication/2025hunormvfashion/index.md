@@ -39,9 +39,11 @@ abstract: 'Existing 4D human datasets fall short for fashion-specific research, 
 summary: 
 
 tags:
-  - Virtual Try-Off
   - Virtual Try-On
+  - Novel View Synthesis
+  - Cloth Size Estimation
   - Diffusion Model
+  - Flow Matching
 
 # Display this page in the Featured widget?
 featured: true
