@@ -1,5 +1,5 @@
 ---
-title: 'What Matters in Virtual Try-Off? Adapting Dual-UNet Virtual Try-On Architectures'
+title: 'What Matters in Virtual Try-Off? Dual-UNet Diffusion Model For Garment Reconstruction'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
