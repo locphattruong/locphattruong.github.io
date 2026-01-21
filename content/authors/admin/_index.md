@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Loc-Phat Truong
+title: Phat Truong
 
 # Name pronunciation (optional)
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Loc-Phat
+first_name: Phat
 last_name: Truong
 
 # Status emoji
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Visiting Researcher 
+role: PhD Candidate 
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -151,9 +151,9 @@ awards:
 
 ## Welcome to my personal page
 
-My name is Phat Truong. I'm a visiting researcher with [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/)(HuPBA), Universitat de Barcelona, working on [Virtual Try-On](https://x.com/Vitonify).
-My research interests focus on image generative models, human understanding, and multimodality. I am currently exploring PhD opportunities where I can contribute to these or related areas.
+My name is Phat Truong. I'm a PhD Student at [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/)(HuPBA), University of Barcelona, Computer Vision Center, co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). Currently, I am working as AI researcher for Vitonify - our group's startup building a commercial virtual try-on solution. I also collaborate with [Google](https://research.google/) about clothing and human body dynamic forecasting, multi-view video virtual try-on during my PhD.
+My research interests focus on visual generative modeling, human understanding, and multimodality.
 
-In 2025, I obtained an [Msc in Computer Vision](https://mcv.uab.cat/), a joint program by UAB, UOC, UPC, UPF, and UB in Barcelona, Spain. My master's thesis on Virtual Try-Off was co-supervised by [Prof. Sergio Escalara](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en), as part of HuPBA.
-Previously, I received a research fellowship to pursue an internship in Image Super-Resolution and Hyperspectral Imaging with Prof. [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) at [Computer Vision Center](https://www.cvc.uab.es/about-us/).
-Before returning to academia, I spent over four years in industry. Until 2024, I was a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), exploring programmatic advertising, user response forecasting, and ads ranking. Earlier, I was a founding AI engineer at SceneSeer - a startup in USA, where we attempted (unsuccessfully 😅) to register a US patent for a cloud-based criminal scene prediction system. Previously, I graduated in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Ho Chi Minh City, Vietnam.
+I obtained an [Msc in Computer Vision](https://mcv.uab.cat/), a joint program by UAB, UOC, UPC, UPF, and UB in Barcelona, Spain in 2025 and a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Ho Chi Minh City, Vietnam in 2020. My Master's thesis is about Virtual Try-Off and Diffusion Models.
+Previously, I received a research fellowship to conduct an internship in Image Super-Resolution and Hyperspectral Imaging with Prof. [Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) at [Computer Vision Center](https://www.cvc.uab.es/about-us/).
+Before returning to academia, I was a Senior Data Scientist at [Knorex R&D Labs](https://www.knorex.com/research-and-development), exploring programmatic advertising, user response forecasting, and ads ranking. Earlier, I was a founding AI engineer at SceneSeer - a startup in USA, where we attempted (unsuccessfully 😅) to register a US patent for a cloud-based criminal scene prediction system.
