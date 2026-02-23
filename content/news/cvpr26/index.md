@@ -1,7 +1,7 @@
 ---
 title: MV-Fashion has been accepted at CVPR’26 🎉
 summary: 
-date: 2025-02-01
+date: 2026-02-23
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.

@@ -37,6 +37,22 @@
     </item>
     
     <item>
+      <title>MV-Fashion has been accepted at CVPR’26 🎉</title>
+      <link>http://localhost:1313/news/cvpr26/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/cvpr26/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I have started my PhD in Computer Vision at Universitat de Barcelona 🇪🇸, with Prof. Sergio Escalera and Dr. Meysam Madadi</title>
+      <link>http://localhost:1313/news/phd-start/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/phd-start/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MV-Fashion: Towards Enabling Virtual Try-On and Size Estimation with Multi-View Paired Data</title>
       <link>http://localhost:1313/publication/2025hunormvfashion/</link>
       <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
@@ -57,22 +73,6 @@
       <link>http://localhost:1313/news/tfm-defence/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/tfm-defence/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I have started my PhD in Computer Vision at Universitat de Barcelona 🇪🇸, with Prof. Sergio Escalera and Dr. Meysam Madadi</title>
-      <link>http://localhost:1313/news/phd-start/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/phd-start/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MV-Fashion has been accepted at CVPR’26 🎉</title>
-      <link>http://localhost:1313/news/cvpr26/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/cvpr26/</guid>
       <description></description>
     </item>
     

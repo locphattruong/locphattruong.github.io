@@ -97,15 +97,15 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   
-  - block: collection
-    content:
-      title: Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-      count: 0
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Publications
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #     count: 0
+  #   design:
+  #     view: citation
 ---
