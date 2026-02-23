@@ -5,7 +5,7 @@
     <link>http://localhost:1313/news/</link>
       <atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
     <description>News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu7973192238126567644.png</url>
       <title>News</title>
@@ -13,26 +13,26 @@
     </image>
     
     <item>
-      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
-      <link>http://localhost:1313/news/tfm-defence/</link>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <title>MV-Fashion has been accepted at CVPR’26 🎉</title>
+      <link>http://localhost:1313/news/cvpr26/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/cvpr26/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>I have started my PhD in Computer Vision at Universitat de Barcelona with Prof. Sergio Escalera and Dr. Meysam Madadi 🎉</title>
+      <title>I have started my PhD in Computer Vision at Universitat de Barcelona 🇪🇸, with Prof. Sergio Escalera and Dr. Meysam Madadi</title>
       <link>http://localhost:1313/news/phd-start/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/phd-start/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>MV-Fashion has been accepted at *CVPR’26* 🎉</title>
-      <link>http://localhost:1313/news/cvpr26/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/news/cvpr26/</guid>
+      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
+      <link>http://localhost:1313/news/tfm-defence/</link>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/tfm-defence/</guid>
       <description></description>
     </item>
     
