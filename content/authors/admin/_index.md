@@ -153,7 +153,7 @@ awards:
 
 My name is Phat Truong. I am a PhD student at [the Human Pose Recovery and Behavior Analysis group](https://www.cvc.uab.es/research-lines/hupba/) (HuPBA), University of Barcelona, Computer Vision Center, co-supervised by [Prof. Sergio Escalera](https://sergioescalera.com/#intro) and [Dr. Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). My research focuses on visual generative modeling, human understanding, and multimodal learning, with an emphasis on Virtual Try-On, garment reconstruction, and clothed human dynamics.
 
-I currently work as an AI researcher at Vitonify — a HuPBA spin-off startup developing commercial Virtual Try-On solutions — and collaborate with [Google](https://research.google/) on clothed human dynamics forecasting using multi-view video virtual try-on within my PhD research.
+Currently, I am developing a commercial Virtual Try-On solutions at Vitonify, HuPBA spin-off startup, and collaborating with [Google](https://research.google/) on clothed human dynamics forecasting using multi-view video virtual try-on within my PhD research.
 
 I received an [MSc in Computer Vision](https://mcv.uab.cat/) in 2025 from the Barcelona joint program (UAB, UOC, UPC, UPF, and UB), and a BE in Mechatronics from [HCMUTE](https://fme.hcmute.edu.vn/ArticleId/bffdb6e0-12cc-4263-921f-c1e0f72cdfb5/introduction-to-mechatronics-department), Ho Chi Minh City, Vietnam, in 2020. My Master’s thesis focused on Virtual Try-Off and diffusion models.
 
