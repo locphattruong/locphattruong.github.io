@@ -59,7 +59,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://arxiv.org/abs/2603.08147'
 url_video: ''
 
 # Featured image
