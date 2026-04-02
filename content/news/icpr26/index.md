@@ -1,5 +1,5 @@
 ---
-title: A paper which is an extension of my Master's thesis has been accepted at ICPR’26. Looking forward to sharing it at Lyon, France 🇫🇷 🎉
+title: A paper, which is an extension of my Master's thesis, has been accepted at ICPR’26. Looking forward to sharing it at Lyon, France 🎉 and also exploring the city 🇫🇷
 summary: 
 date: 2026-03-31
 
