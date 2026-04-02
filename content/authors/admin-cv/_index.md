@@ -57,14 +57,20 @@ education:
        Thesis: Image Classification, Neuralnet Explanability and the real-time integration with Mechatronics System (9.2/10).
 
 work:
-  - position: Visiting Researcher
+  - position: PhD Candidate
     company_name: Universitat de Barcelona
-    company_url: 'https://www.cvc.uab.es/about-us/'
+    company_url: 'https://web.ub.edu/en/'
+    company_logo: ''
+    date_start: 2026-02-01
+    date_end:
+    summary: 
+  - position: Researcher
+    company_name: Universitat de Barcelona
+    company_url: 'https://web.ub.edu/en/'
     company_logo: ''
     date_start: 2025-09-22
-    date_end:
-    summary: |2-
-      Virtual Try-On with Vitonify Dataset
+    date_end: 2026-01-30
+    summary: 
   - position: Research Fellow Intern
     company_name: Computer Vision Center
     company_url: 'https://www.cvc.uab.es/about-us/'
