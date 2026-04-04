@@ -1,5 +1,5 @@
 ---
-title: '[ICPR’26]📌 A paper, which is an extension of my Msc thesis, has been accepted at ICPR’26. Coming Lyon, France 🎉🇫🇷'
+title: '[ICPR’26]📌 "What Matters in Virtual Try-Off?" has been accepted at ICPR’26. Coming Lyon, France 🎉🇫🇷'
 summary: 
 date: 2026-03-31
 
