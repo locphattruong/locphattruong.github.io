@@ -1,5 +1,5 @@
 ---
-title: I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉
+title: 🎓 I successfully defended my MSc thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉
 summary: 
 date: 2025-09-16
 
