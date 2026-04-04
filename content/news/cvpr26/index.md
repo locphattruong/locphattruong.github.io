@@ -1,5 +1,5 @@
 ---
-title: [CVPR’26] MV-Fashion has been accepted at CVPR’26 🎉
+title: '[CVPR’26] MV-Fashion has been accepted at CVPR’26 🎉'
 summary: 
 date: 2026-02-23
 
