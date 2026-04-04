@@ -1,5 +1,5 @@
 ---
-title: I have started my PhD in Computer Vision at Universitat de Barcelona 🇪🇸, with Prof. Sergio Escalera and Dr. Meysam Madadi
+title: 🇪🇸 I have started my PhD in Computer Vision at HuPBA group, Universitat de Barcelona 🤸🏻🤸🏻 🚀
 summary: 
 date: 2026-02-01
 
