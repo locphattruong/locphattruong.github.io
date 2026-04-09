@@ -26,7 +26,7 @@ publishDate: '2025-09-27'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: 'In the International Conference on Pattern Recognition (ICPR) 2026'
+publication: 'In *The International Conference on Pattern Recognition (ICPR) 2026*'
 publication_short: 
 
 abstract: 'Virtual Try-On (VTON) has seen rapid advancements, providing a strong foundation for generative fashion tasks. However, the inverse problem, Virtual Try-Off (VTOFF)-aimed at reconstructing the canonical garment from an on-body image-is emerging as a critical, yet less understood, complement for streamlined person-to-person VTON and improve human-garment feature representation. In this work, we seek to bridge the architectural design gap by studying the most successful diffusion-based strategies from VTON and general Latent Diffusion Models (LDMs) in the VTOFF domain. We focus our investigation on the strong Dual-UNet Diffusion Model architecture and analyze three axes of design: (i) Generation Backbone: comparing Stable Diffusion variants; (ii) Conditioning: ablating different mask designs, masked/unmasked inputs for image conditioning, and the utility of high-level semantic features; and (iii) Losses and Training Strategies: evaluating the impact of the auxiliary attention-based loss, perceptual objectives and multi-stage curriculum schedules. Extensive experiments reveal trade-offs across various configuration options. Evaluated on VITON-HD and DressCode datasets, our framework achieves state-of-the-art performance with a drop of 9.5% on the primary metric DISTS and competitive performance on LPIPS, FID, KID, and SSIM, providing both stronger baselines and insights to guide future Virtual Try-Off research.'
