@@ -1,0 +1,21 @@
+{{ .Caption }}
+<table>
+  {{ with .Head }}
+  <thead>
+    <tr>
+      {{ range . }}
+      <th>{{ . | safeHTML }}</th>
+      {{ end }}
+    </tr>
+  </thead>
+  {{ end }}
+  <tbody>
+    {{ range .Body }}
+    <tr>
+      {{ range . }}
+      <td>{{ . | safeHTML }}</td>
+      {{ end }}
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
