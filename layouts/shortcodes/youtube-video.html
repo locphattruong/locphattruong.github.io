@@ -1,0 +1,13 @@
+<section class="academic-section">
+  <div class="container">
+    {{ if .Get "title" }}
+    <h2 class="section-title">{{ .Get "title" }}</h2>
+    {{ end }}
+    <div class="youtube-container">
+      <iframe src="https://www.youtube.com/embed/{{ .Get "id" }}" 
+              frameborder="0" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen></iframe>
+    </div>
+  </div>
+</section>

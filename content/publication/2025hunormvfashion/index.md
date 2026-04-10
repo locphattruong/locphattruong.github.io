@@ -53,11 +53,11 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: 'https://arxiv.org/pdf/2603.08147'
+url_code: 'https://github.com/HunorLaczko/MV-Fashion'
+url_dataset: 'https://hunorlaczko.github.io/MV-Fashion/request-data'
 url_poster: ''
-url_project: ''
+url_project: 'https://hunorlaczko.github.io/MV-Fashion/'
 url_slides: ''
 url_source: 'https://arxiv.org/abs/2603.08147'
 url_video: ''

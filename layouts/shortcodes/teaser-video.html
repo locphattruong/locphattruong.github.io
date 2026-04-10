@@ -1,0 +1,9 @@
+{{ $video := .Get "poster" }}
+<div class="teaser-video">
+  <video poster="{{ $video }}" id="teaser" autoplay controls muted loop height="100%" preload="metadata">
+    <source src="{{ .Get "src" }}" type="video/mp4">
+  </video>
+</div>
+{{ if .Get "caption" }}
+<h2 class="video-description">{{ .Get "caption" }}</h2>
+{{ end }}

@@ -1,0 +1,8 @@
+<section class="academic-section light">
+  <div class="container">
+    <h2 class="section-title">{{ .Get "title" | default "Abstract" }}</h2>
+    <div class="abstract-content">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+</section>
