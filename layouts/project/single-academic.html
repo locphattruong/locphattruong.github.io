@@ -1,221 +1,104 @@
 {{ define "main" }}
-<!DOCTYPE html>
-<html lang="{{ .Lang }}">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="{{ .Title }}{{ if .Params.authors }} - {{ delimit .Params.authors ", " }}{{ end }}">
-    {{ if .Params.description }}
-    <meta name="description" content="{{ .Params.description | truncate 160 }}">
-    {{ else if .Summary }}
-    <meta name="description" content="{{ .Summary | truncate 160 }}">
-    {{ end }}
-    {{ if .Params.keywords }}
-    <meta name="keywords" content="{{ delimit .Params.keywords ", " }}">
-    {{ end }}
-    {{ if .Params.authors }}
-    <meta name="author" content="{{ delimit .Params.authors ", " }}">
-    {{ end }}
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ .Title }}">
-    {{ if .Params.description }}
-    <meta property="og:description" content="{{ .Params.description | truncate 160 }}">
-    {{ else if .Summary }}
-    <meta property="og:description" content="{{ .Summary | truncate 160 }}">
-    {{ end }}
-    <meta property="og:url" content="{{ .Permalink }}">
-    {{ if .Params.featured_image }}
-    <meta property="og:image" content="{{ .Params.featured_image | absURL }}">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    {{ end }}
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ .Title }}">
-    {{ if .Params.description }}
-    <meta name="twitter:description" content="{{ .Params.description | truncate 160 }}">
-    {{ else if .Summary }}
-    <meta name="twitter:description" content="{{ .Summary | truncate 160 }}">
-    {{ end }}
-    {{ if .Params.featured_image }}
-    <meta name="twitter:image" content="{{ .Params.featured_image | absURL }}">
-    {{ end }}
-    
-    <!-- Academic Metadata -->
-    <meta name="citation_title" content="{{ .Title }}">
-    {{ range .Params.authors }}
-    <meta name="citation_author" content="{{ . }}">
-    {{ end }}
-    {{ if .Params.publication_date }}
-    <meta name="citation_publication_date" content="{{ .Params.publication_date }}">
-    {{ else }}
-    <meta name="citation_publication_date" content="{{ .Date.Format "2006-01-02" }}">
-    {{ end }}
-    {{ if .Params.conference }}
-    <meta name="citation_conference_title" content="{{ .Params.conference }}">
-    {{ end }}
-    {{ if .Params.arxiv_id }}
-    <meta name="citation_pdf_url" content="https://arxiv.org/pdf/{{ .Params.arxiv_id }}.pdf">
-    {{ end }}
-    
-    <title>{{ .Title }}{{ if .Params.authors }} - {{ delimit .Params.authors ", " }}{{ end }}</title>
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{ "css/academic-project-page.css" | relURL }}">
-    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
-    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css">
-</head>
-<body>
-    <!-- Scroll to Top Button -->
-    <button class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-
-    <main id="main-content">
-        <!-- Hero Section -->
-        <section class="academic-hero">
-            <div class="container">
-                <h1 class="paper-title">{{ .Title }}</h1>
-                
-                {{ if .Params.authors }}
-                <div class="paper-authors">
-                    {{ range $idx, $author := .Params.authors }}
-                        <span class="author-block">
-                            {{ if (index .Params.author_links $idx) }}
-                                <a href="{{ index .Params.author_links $idx }}" target="_blank">{{ $author }}</a>
-                            {{ else }}
-                                {{ $author }}
-                            {{ end }}
-                            {{ if ne $idx (sub (len $.Params.authors) 1) }},{{ end }}
-                        </span>
-                    {{ end }}
-                </div>
-                {{ end }}
-                
-                {{ if .Params.affiliations }}
-                <div class="author-affiliation">
-                    {{ range .Params.affiliations }}
-                        <div>{{ . }}</div>
-                    {{ end }}
-                </div>
-                {{ end }}
-                
-                {{ if or .Params.arxiv_id .Params.github_url .Params.paper_pdf .Params.supplement_pdf .Params.website_url }}
-                <div class="paper-links">
-                    {{ if .Params.paper_pdf }}
-                    <a href="{{ .Params.paper_pdf }}" target="_blank" class="paper-link-btn">
-                        <i class="fas fa-file-pdf"></i> Paper
-                    </a>
-                    {{ end }}
-                    
-                    {{ if .Params.supplement_pdf }}
-                    <a href="{{ .Params.supplement_pdf }}" target="_blank" class="paper-link-btn">
-                        <i class="fas fa-file-pdf"></i> Supplementary
-                    </a>
-                    {{ end }}
-                    
-                    {{ if .Params.github_url }}
-                    <a href="{{ .Params.github_url }}" target="_blank" class="paper-link-btn">
-                        <i class="fab fa-github"></i> Code
-                    </a>
-                    {{ end }}
-                    
-                    {{ if .Params.arxiv_id }}
-                    <a href="https://arxiv.org/abs/{{ .Params.arxiv_id }}" target="_blank" class="paper-link-btn">
-                        <i class="ai ai-arxiv"></i> arXiv
-                    </a>
-                    {{ end }}
-                    
-                    {{ if .Params.website_url }}
-                    <a href="{{ .Params.website_url }}" target="_blank" class="paper-link-btn">
-                        <i class="fas fa-globe"></i> Project
-                    </a>
-                    {{ end }}
-                </div>
-                {{ end }}
-            </div>
-        </section>
+<div class="academic-hero">
+    <div class="container">
+        <h1 class="paper-title">{{ .Title }}</h1>
         
-        <!-- Main Content -->
-        <div class="academic-section">
-            <div class="container">
-                {{ .Content }}
-            </div>
+        {{ if .Params.authors }}
+        <div class="paper-authors">
+            {{ range $idx, $author := .Params.authors }}
+                <span class="author-block">
+                    {{ if (index .Params.author_links $idx) }}
+                        <a href="{{ index .Params.author_links $idx }}" target="_blank">{{ $author }}</a>
+                    {{ else }}
+                        {{ $author }}
+                    {{ end }}
+                    {{ if ne $idx (sub (len $.Params.authors) 1) }},{{ end }}
+                </span>
+            {{ end }}
         </div>
-        
-        <!-- BibTeX Citation -->
-        {{ if .Params.bibtex }}
-        <section class="academic-section light">
-            <div class="container">
-                <div class="bibtex-section">
-                    <div class="bibtex-header">
-                        <h2 class="section-title" style="margin: 0;">BibTeX</h2>
-                        <button class="bibtex-copy-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-                            <i class="fas fa-copy"></i>
-                            <span class="copy-text">Copy</span>
-                        </button>
-                    </div>
-                    <pre id="bibtex-code" class="bibtex-code"><code>{{ .Params.bibtex }}</code></pre>
-                </div>
-            </div>
-        </section>
         {{ end }}
-    </main>
-
-    <!-- Footer -->
-    <footer class="academic-footer">
-        <div class="container">
-            <p>
-                This page was built using an adaptation of the 
-                <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>
-                for Hugo. Licensed under 
-                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
-                    Creative Commons Attribution-ShareAlike 4.0 International License
-                </a>.
-            </p>
+        
+        {{ if .Params.affiliations }}
+        <div class="author-affiliation">
+            {{ range .Params.affiliations }}
+                <div>{{ . }}</div>
+            {{ end }}
         </div>
-    </footer>
+        {{ end }}
+        
+        {{ if or .Params.arxiv_id .Params.github_url .Params.paper_pdf .Params.supplement_pdf .Params.website_url }}
+        <div class="paper-links">
+            {{ if .Params.paper_pdf }}
+            <a href="{{ .Params.paper_pdf }}" target="_blank" class="paper-link-btn">
+                <i class="fas fa-file-pdf"></i> Paper
+            </a>
+            {{ end }}
+            
+            {{ if .Params.supplement_pdf }}
+            <a href="{{ .Params.supplement_pdf }}" target="_blank" class="paper-link-btn">
+                <i class="fas fa-file-pdf"></i> Supplementary
+            </a>
+            {{ end }}
+            
+            {{ if .Params.github_url }}
+            <a href="{{ .Params.github_url }}" target="_blank" class="paper-link-btn">
+                <i class="fab fa-github"></i> Code
+            </a>
+            {{ end }}
+            
+            {{ if .Params.arxiv_id }}
+            <a href="https://arxiv.org/abs/{{ .Params.arxiv_id }}" target="_blank" class="paper-link-btn">
+                <i class="ai ai-arxiv"></i> arXiv
+            </a>
+            {{ end }}
+            
+            {{ if .Params.website_url }}
+            <a href="{{ .Params.website_url }}" target="_blank" class="paper-link-btn">
+                <i class="fas fa-globe"></i> Project
+            </a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
 
-    <script>
-        // Scroll to Top
-        window.addEventListener('scroll', function() {
-            const scrollBtn = document.getElementById('scrollToTop');
-            if (window.pageYOffset > 300) {
-                scrollBtn.classList.add('show');
-            } else {
-                scrollBtn.classList.remove('show');
-            }
+<!-- Main Content -->
+<div class="academic-section">
+    <div class="container">
+        {{ .Content }}
+    </div>
+</div>
+
+<!-- BibTeX Citation -->
+{{ if .Params.bibtex }}
+<section class="academic-section light">
+    <div class="container">
+        <div class="bibtex-section">
+            <div class="bibtex-header">
+                <h2 class="section-title" style="margin: 0;">BibTeX</h2>
+                <button class="bibtex-copy-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+                    <i class="fas fa-copy"></i>
+                    <span class="copy-text">Copy</span>
+                </button>
+            </div>
+            <pre id="bibtex-code" class="bibtex-code"><code>{{ .Params.bibtex }}</code></pre>
+        </div>
+    </div>
+</section>
+{{ end }}
+
+<script>
+    // Copy BibTeX
+    function copyBibTeX() {
+        const bibtexCode = document.getElementById('bibtex-code').textContent;
+        navigator.clipboard.writeText(bibtexCode).then(() => {
+            const btn = event.target.closest('.bibtex-copy-btn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i><span class="copy-text">Copied!</span>';
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+            }, 2000);
         });
-
-        function scrollToTop() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        // Copy BibTeX
-        function copyBibTeX() {
-            const bibtexCode = document.getElementById('bibtex-code').textContent;
-            navigator.clipboard.writeText(bibtexCode).then(() => {
-                const btn = event.target.closest('.bibtex-copy-btn');
-                const originalText = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-check"></i><span class="copy-text">Copied!</span>';
-                setTimeout(() => {
-                    btn.innerHTML = originalText;
-                }, 2000);
-            });
-        }
-    </script>
-</body>
-</html>
+    }
+</script>
 {{ end }}
