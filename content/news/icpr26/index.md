@@ -1,5 +1,5 @@
 ---
-title: '[ICPR’26]📌 "What Matters in Virtual Try-Off?" has been accepted at ICPR’26. I'm coming Lyon, France to present it 🎉🇫🇷'
+title: '[ICPR’26]📌 "What Matters in Virtual Try-Off?" has been accepted at ICPR’26. I will present it in Lyon, France 🎉🇫🇷'
 summary: 
 date: 2026-03-31
 
