@@ -3,58 +3,36 @@ title: "Virtual Try-Off: Dual-UNet Diffusion Model For Garment Reconstruction"
 date: 2025-09-27
 draft: false
 
-# Display as academic project page
-layout: "single-academic"
-
 # Authors & Affiliations
 authors:
   - "Phat Loc Truong"
   - "Meysam Madadi"
   - "Sergio Escalera"
 
-author_links:
-  - "https://locphattruong.github.io"
-  - "https://scholar.google.com/citations?user=..."
-  - "https://scholar.google.com/citations?user=..."
+tags:
+  - Virtual Try-Off
+  - Virtual Try-On
+  - Diffusion Models
+  - Garment Reconstruction
 
-affiliations:
-  - "Computer Vision Center (CVC), Universitat Autònoma de Barcelona"
-  - "Department of Mathematics, Universitat Autònoma de Barcelona"
-  - "International Conference on Pattern Recognition (ICPR) 2026"
+summary: "Virtual Try-Off using Dual-UNet Diffusion Model for reconstructing canonical garments from on-body images. State-of-the-art results on VITON-HD and DressCode datasets with 9.5% improvement on primary metric."
 
-# Description for metadata
-description: "Virtual Try-Off using Dual-UNet Diffusion Model for reconstructing canonical garments from on-body images."
+# External links
+external_link: ""
 
-keywords: 
-  - "Virtual Try-Off"
-  - "Virtual Try-On"
-  - "Diffusion Models"
-  - "Garment Reconstruction"
-  - "Fashion Generation"
+# Links
+url_pdf: ""
+url_code: ""
+url_dataset: ""
+url_slides: ""
+url_video: ""
+url_poster: ""
 
-# PDF and Link Information
-paper_pdf: ""
-supplement_pdf: ""
-github_url: ""
-arxiv_id: ""
-website_url: ""
-dataset_url: ""
-
-# Conference/Publication Details
-conference: "International Conference on Pattern Recognition (ICPR)"
-publication_date: "2026"
-
-# Featured Image for social media
-featured_image: ""
-
-# BibTeX Citation
-bibtex: |
-  @inproceedings{truong2026vtoff,
-    title={What Matters in Virtual Try-Off? Dual-UNet Diffusion Model For Garment Reconstruction},
-    author={Truong, Loc-Phat and Madadi, Meysam and Escalera, Sergio},
-    booktitle={Proceedings of the International Conference on Pattern Recognition (ICPR)},
-    year={2026}
-  }
+# Featured image
+image:
+  caption: Virtual Try-Off Results
+  focal_point: Smart
+  preview_only: false
 ---
 
 ## Abstract
@@ -67,7 +45,7 @@ In this work, we bridge the architectural design gap by studying the most succes
 2. **Conditioning**: Ablating mask designs, image inputs, and semantic features
 3. **Training Strategies**: Evaluating attention-based loss, perceptual objectives, and curriculum learning
 
-Evaluated on VITON-HD and DressCode datasets, our framework achieves **state-of-the-art performance** with a **9.5% improvement** on the primary metric (DISTS) and competitive results on LPIPS, FID, KID, and SSIM.
+Evaluated on VITON-HD and DressCode datasets, our framework achieves **state-of-the-art performance** with a **9.5% improvement** on the primary metric (DISTS).
 
 ## Problem Statement
 
