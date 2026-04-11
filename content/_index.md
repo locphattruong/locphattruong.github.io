@@ -36,7 +36,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on visual generative modeling, representation learning, human understanding, and fashion technolofy. Currently, I am developing commercial Virtual Try-On solutions at [Vitonify](https://vitonify-ai.vercel.app/), HuPBA spin-off startup, and collaborating with [Google](https://research.google/) on clothed human dynamics forecasting as part of my PhD research.
+        My research focuses on visual generative modeling, representation learning, human understanding, and fashion technolofy. Currently, I am developing commercial Virtual Try-On solutions at **Vitonify**, HuPBA spin-off startup, and collaborating with **Google** on clothed human dynamics forecasting as part of my PhD research.
         
         Please reach out to collaborate 😃
     design:
