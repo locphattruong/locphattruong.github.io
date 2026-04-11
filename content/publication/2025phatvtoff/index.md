@@ -46,7 +46,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: https://locphattruong.github.io/DualVTOFF/
-# external_link: https://locphattruong.github.io/DualVTOFF/
+external_link: https://locphattruong.github.io/DualVTOFF/
 
 url_pdf: ''
 url_code: ''
@@ -69,8 +69,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - icpr26-demo
+# projects:
+#   - icpr26-demo
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
