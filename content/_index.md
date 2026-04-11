@@ -36,9 +36,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My research focuses on visual generative modeling, representation learning, human understanding, and fashion technolofy. Currently, I am developing commercial Virtual Try-On solutions at [Vitonify](https://vitonify-ai.vercel.app/), HuPBA spin-off startup, and collaborating with [Google](https://research.google/) on clothed human dynamics forecasting as part of my PhD research.
         
         Please reach out to collaborate 😃
     design:
