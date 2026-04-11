@@ -151,6 +151,6 @@ awards:
 
 ## Welcome to my personal page
 
-I am a PhD candidate at [HuPBA](https://www.cvc.uab.es/research-lines/hupba/), University of Barcelona, Computer Vision Center, co-supervised by [Sergio Escalera](https://sergioescalera.com/#intro) and [Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en).
+I am a PhD candidate at [HuPBA](https://www.cvc.uab.es/research-lines/hupba/), University of Barcelona, Computer Vision Center, co-supervised by [Sergio Escalera](https://sergioescalera.com/#intro) and [Meysam Madadi](https://scholar.google.com/citations?user=hWMXdg4AAAAJ&hl=en). As part of my PhD research, I am developing commercial Virtual Try-On solutions at **Vitonify**, HuPBA spin-off startup, and collaborating with **Google** on clothed human dynamics forecasting.
 
 I hold an [MSc in Computer Vision](https://mcv.uab.cat/) from the Barcelona joint program (UAB, UOC, UPC, UPF, and UB) and a BE in Mechatronics Engineering. During my master’s studies, I secured a research fellowship at the Computer Vision Center, working with [Prof. Daniel Ponsa](https://orcid.org/0000-0002-7330-6524) on hyperspectral image super-resolution. Before returning to academia, I was a Data Scientist working on programmatic advertising and a founding AI Engineer at a US startup on computer vision.
