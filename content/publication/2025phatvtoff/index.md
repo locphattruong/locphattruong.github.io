@@ -45,13 +45,14 @@ featured: true
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
-#   url: http://example.org
+#   url: https://locphattruong.github.io/DualVTOFF/
+# external_link: https://locphattruong.github.io/DualVTOFF/
 
 url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: '/project/icpr26-demo/'
+url_project: 'https://locphattruong.github.io/DualVTOFF/'
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -68,8 +69,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-# projects:
-#   - example
+projects:
+  - icpr26-demo
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
