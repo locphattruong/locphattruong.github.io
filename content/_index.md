@@ -36,9 +36,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research focuses on visual generative modeling, representation learning, human understanding, and applications in fashion technology. 
+        My research interests include conditional generative models (image, video, 3D, etc.), representation learning, human understanding, and applications in fashion technology. 
         
-        Please reach out to collaborate 😃
+        Please reach out for discussion or collaboration 😃
     design:
       css_class: "!text-2xl prose-base"
       columns: '1'
