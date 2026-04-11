@@ -40,6 +40,7 @@ sections:
         
         Please reach out to collaborate 😃
     design:
+      css_class: "!text-2xl prose-base"
       columns: '1'
 
   # - block: collection
