@@ -36,7 +36,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        My research interests include conditional generative models (image, video, 3D, etc.), representation learning, human understanding, and applications in fashion technology. 
+        My research interests include conditional generative models in vision (image, video, 3D, etc.), representation learning, human understanding, and their application in fashion technology (e.g., sizing, virtual try-on, recommendation). I am also interested in techniques for making large models more efficient.
         
         Please reach out for discussion or collaboration 😃
     design:
