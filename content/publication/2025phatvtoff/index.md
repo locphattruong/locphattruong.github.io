@@ -46,15 +46,15 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: https://locphattruong.github.io/DualVTOFF/
-external_link: https://locphattruong.github.io/DualVTOFF/
+# external_link: https://locphattruong.github.io/DualVTOFF/
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2604.08716'
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: 'https://locphattruong.github.io/DualVTOFF/'
 url_slides: ''
-url_source: ''
+url_source: 'https://arxiv.org/abs/2604.08716'
 url_video: ''
 
 # Featured image
