@@ -15,7 +15,7 @@ author_notes:
   # - 'Equal contribution'
 
 date: '2020-12-29'
-doi: '10.1109/GTSD50082.2020.9303079'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2020-12-29'

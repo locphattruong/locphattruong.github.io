@@ -1,10 +1,9 @@
 ---
-title: '[CVPR’26]📌 MV-Fashion has been accepted at CVPR’26 (Highlight) 🎉'
+title: '[CVPR’26]📌 MV-Fashion, my group collaborative work, has been accepted at CVPR’26 with Highlight 🎉'
 summary: 
 date: 2026-02-23
+link: "https://hunorlaczko.github.io/MV-Fashion/"
 
-# Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
   caption:
 

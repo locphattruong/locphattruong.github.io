@@ -37,7 +37,15 @@
     </item>
     
     <item>
-      <title>MV-Fashion has been accepted at CVPR’26 🎉</title>
+      <title>[ICPR’26]📌 &#34;What Matters in Virtual Try-Off?&#34;, my Msc Thesis extension, has been accepted at ICPR’26. I will present it in August 2026 at Lyon, France 🎉🇫🇷</title>
+      <link>http://localhost:1313/news/icpr26/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/icpr26/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[CVPR’26]📌 MV-Fashion, my group collaborative work, has been accepted at CVPR’26 with Highlight 🎉</title>
       <link>http://localhost:1313/news/cvpr26/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/cvpr26/</guid>
@@ -45,7 +53,7 @@
     </item>
     
     <item>
-      <title>I have started my PhD in Computer Vision at Universitat de Barcelona 🇪🇸, with Prof. Sergio Escalera and Dr. Meysam Madadi</title>
+      <title>🇪🇸 I have started my PhD in Computer Vision at HuPBA group, Universitat de Barcelona 🤸🏻🤸🏻 🚀</title>
       <link>http://localhost:1313/news/phd-start/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/phd-start/</guid>
@@ -61,6 +69,14 @@
     </item>
     
     <item>
+      <title>MV-Fashion: Virtual Try-On and Size Estimation with Multi-View Data</title>
+      <link>http://localhost:1313/project/mv-fashion-cvpr/</link>
+      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/mv-fashion-cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>What Matters in Virtual Try-Off? Dual-UNet Diffusion Model For Garment Reconstruction</title>
       <link>http://localhost:1313/publication/2025phatvtoff/</link>
       <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
@@ -69,7 +85,15 @@
     </item>
     
     <item>
-      <title>I successfully defended my Master thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
+      <title>What Matters in Virtual Try-Off? Dual-UNet Diffusion Model For Garment Reconstruction (project page is coming soon...)</title>
+      <link>http://localhost:1313/project/icpr26-demo/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/icpr26-demo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎓 I successfully defended my MSc thesis at The Annual Catalan Meeting on Computer Vision (ACMCV) 2025 🎉</title>
       <link>http://localhost:1313/news/tfm-defence/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/tfm-defence/</guid>
@@ -428,7 +452,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-675328914&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-231869457&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -446,7 +470,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-675328914&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-231869457&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
