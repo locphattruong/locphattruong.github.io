@@ -25,7 +25,7 @@ publishDate: '2020-12-29'
 # Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
 venue: "IEEE"
-venue_color: "bg-purple-100 text-purple-800"
+venue_color: "bg-blue-100 text-blue-800"
 
 # Publication name and optional abbreviated publication name.
 publication: In *2020 5th International Conference on Green Technology and Sustainable Development (GTSD), pp. 321–325*

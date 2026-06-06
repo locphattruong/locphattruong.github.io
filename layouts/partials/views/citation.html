@@ -38,46 +38,120 @@
 {{ end }}
 
 {{ $venueClass := $item.Params.venue_color | default "" }}
+{{ $venueBgClass := $item.Params.venue_color_bg | default "" }}
+{{ $venueTextClass := $item.Params.venue_color_text | default "" }}
 {{ if eq $venueClass "" }}
   {{ $venueType := "" }}
   {{ if $item.Params.publication_types }}
     {{ $venueType = index $item.Params.publication_types 0 }}
   {{ end }}
   {{ if eq $venueType "paper-conference" }}
-    {{ $venueClass = "bg-rose-100 text-rose-800" }}
+    {{ $venueTextClass = "text-rose-800" }}
   {{ else if eq $venueType "paper-journal" }}
-    {{ $venueClass = "bg-sky-100 text-sky-800" }}
+    {{ $venueTextClass = "text-sky-800" }}
   {{ else if eq $venueType "preprint" }}
-    {{ $venueClass = "bg-amber-100 text-amber-800" }}
+    {{ $venueTextClass = "text-amber-800" }}
   {{ else }}
-    {{ $venueClass = "bg-slate-100 text-slate-800" }}
+    {{ $venueTextClass = "text-slate-800" }}
   {{ end }}
 {{ end }}
+{{ if eq $venueBgClass "" }}
+  {{ range split $venueClass " " }}
+    {{ if hasPrefix . "bg-" }}
+      {{ $venueBgClass = printf "%s %s" $venueBgClass . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if eq $venueTextClass "" }}
+  {{ range split $venueClass " " }}
+    {{ if hasPrefix . "text-" }}
+      {{ $venueTextClass = printf "%s %s" $venueTextClass . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $venueBgClass = trim $venueBgClass " " }}
+{{ $venueTextClass = trim $venueTextClass " " }}
+{{ if eq $venueTextClass "" }}
+  {{ $venueTextClass = "text-slate-800" }}
+{{ end }}
+{{ $twColors := dict
+  "purple-100" "#ede9fe" "purple-800" "#6b21a8"
+  "rose-100" "#ffe4e6" "rose-800" "#9f1239"
+  "sky-100" "#e0f2fe" "sky-800" "#0c4a6e"
+  "amber-100" "#fef3c7" "amber-800" "#92400e"
+  "slate-100" "#f1f5f9" "slate-800" "#1e293b"
+  "gray-100" "#f3f4f6" "gray-800" "#1f2937"
+  "blue-100" "#dbeafe" "blue-800" "#1e40af"
+  "green-100" "#dcfce7" "green-800" "#166534"
+  "emerald-100" "#d1fae5" "emerald-800" "#065f46"
+  "teal-100" "#ccfbf1" "teal-800" "#115e59"
+  "cyan-100" "#cffafe" "cyan-800" "#155e75"
+  "indigo-100" "#e0e7ff" "indigo-800" "#3730a3"
+  "violet-100" "#ede9fe" "violet-800" "#5b21b6"
+  "fuchsia-100" "#fdf4ff" "fuchsia-800" "#86198f"
+  "pink-100" "#fce7f3" "pink-800" "#be185d"
+  "yellow-100" "#fef9c3" "yellow-800" "#713f12"
+  "lime-100" "#ecfccb" "lime-800" "#365314"
+  "neutral-100" "#f5f5f4" "neutral-800" "#262626"
+  "stone-100" "#fafaf9" "stone-800" "#2d2d2d"
+  "zinc-100" "#f4f4f5" "zinc-800" "#27272a"
+}}
+{{ $venueBgStyle := "" }}
+{{ range split $venueBgClass " " }}
+  {{ if hasPrefix . "bg-" }}
+    {{ $shade := replace . "bg-" "" }}
+    {{ $color := index $twColors $shade | default "" }}
+    {{ if ne $color "" }}
+      {{ $venueBgStyle = printf "background-color:%s;" $color }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $venueTextStyle := "" }}
+{{ range split $venueTextClass " " }}
+  {{ if hasPrefix . "text-" }}
+    {{ $shade := replace . "text-" "" }}
+    {{ $color := index $twColors $shade | default "" }}
+    {{ if ne $color "" }}
+      {{ $venueTextStyle = printf "color:%s;" $color }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $venueBgStyle = safeCSS $venueBgStyle }}
+{{ $venueTextStyle = safeCSS $venueTextStyle }}
 
 <div class="pub-list-item view-citation mb-4">
   <div class="flex items-start gap-3">
-    {{ if $image }}
-      <a href="{{ $item.RelPermalink }}" class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700" aria-hidden="true">
-        <img
-          class="h-14 w-14 object-cover"
-          src="{{ $image.RelPermalink }}"
-          width="{{ $image.Width }}"
-          height="{{ $image.Height }}"
-          alt="{{ with $item.Params.image.alt_text }}{{ . }}{{ else }}{{ $item.Title | plainify }}{{ end }}"
-        />
-      </a>
-    {{ else }}
-      <i class="far fa-file-alt pub-icon mt-1" aria-hidden="true"></i>
-    {{ end }}
+    <div class="flex-none w-20 flex flex-col items-center gap-2">
+      <div class="flex-none h-14 w-14">
+        {{ if $image }}
+          <a href="{{ $item.RelPermalink }}" class="block h-14 w-14 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700" aria-hidden="true">
+            <img
+              class="h-14 w-14 object-cover"
+              src="{{ $image.RelPermalink }}"
+              width="{{ $image.Width }}"
+              height="{{ $image.Height }}"
+              alt="{{ with $item.Params.image.alt_text }}{{ . }}{{ else }}{{ $item.Title | plainify }}{{ end }}"
+            />
+          </a>
+        {{ else }}
+          <div class="flex h-14 w-14 items-center justify-center overflow-hidden rounded-md border border-gray-200 bg-slate-100 text-slate-600 dark:border-gray-700 dark:bg-slate-800 dark:text-slate-300" aria-hidden="true">
+            <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+          </div>
+        {{ end }}
+      </div>
 
-    <div class="min-w-0">
-      {{ if $venue }}
-        <div class="mb-2">
-          <span class="inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold tracking-wide {{ $venueClass }}">
+      <div class="h-7 w-20 overflow-hidden rounded-full border-b border-slate-200 dark:border-slate-700 {{ if eq $venueBgClass "" }}bg-slate-100 dark:bg-slate-900 text-slate-900 dark:text-slate-100{{ else }}{{ $venueBgClass }} {{ end }}"{{ if ne $venueBgStyle "" }} style="{{ $venueBgStyle }}"{{ end }}>
+        {{ if $venue }}
+          <span class="inline-flex h-full w-full items-center justify-center truncate px-2 text-center text-xs font-semibold tracking-wide {{ $venueTextClass }}"{{ if ne $venueTextStyle "" }} style="{{ $venueTextStyle }}"{{ end }}>
             {{ $venue }}
           </span>
-        </div>
-      {{ end }}
+        {{ else }}
+          <span class="block h-full w-full"></span>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="min-w-0">
 
       {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
         <span class="article-metadata li-cite-author">
