@@ -28,6 +28,8 @@ publishDate: '2025-11-16'
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
+venue: "CVPR’26 (Highlight)"
+venue_color: "bg-purple-100 text-purple-800"
 
 # Publication name and optional abbreviated publication name.
 publication: In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026 (Highlight)*

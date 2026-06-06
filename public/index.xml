@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>[ICPR’26]📌 &#34;What Matters in Virtual Try-Off?&#34;, my Msc Thesis extension, has been accepted at ICPR’26. I will present it in August 2026 at Lyon, France 🎉🇫🇷</title>
+      <title>&#34;What Matters in Virtual Try-Off?&#34;, my Msc Thesis extension, has been accepted at ICPR’26. I will present it in August 2026 at Lyon, France 🎉🇫🇷</title>
       <link>http://localhost:1313/news/icpr26/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/icpr26/</guid>
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>[CVPR’26]📌 MV-Fashion, my group collaborative work, has been accepted at CVPR’26 with Highlight 🎉</title>
+      <title>MV-Fashion, my group collaborative work, has been accepted at CVPR’26 with Highlight 🎉</title>
       <link>http://localhost:1313/news/cvpr26/</link>
       <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/cvpr26/</guid>
@@ -97,6 +97,14 @@
       <link>http://localhost:1313/news/tfm-defence/</link>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/tfm-defence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>I started my Barcelona inter-uni Msc program organized by CVC, UAB, UB, UPF, UPC and UOC. I also received a graduate fellowship to conduct internship with Prof. Daniel Ponsa at CVC 🎉</title>
+      <link>http://localhost:1313/news/msc-start/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/news/msc-start/</guid>
       <description></description>
     </item>
     
@@ -452,7 +460,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
 
 
-&lt;div id=&#34;chart-231869457&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-627498135&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -470,7 +478,7 @@ Moreover, I even discovered an app on the Apple Watch utilzing its built-in gyro
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-231869457&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-627498135&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

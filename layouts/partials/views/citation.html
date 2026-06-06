@@ -1,0 +1,117 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+{{ $featured := partial "functions/get_featured_image.html" $item }}
+{{ $image := "" }}
+{{ if $featured }}
+  {{ $anchor := $item.Params.image.focal_point | default "Center" }}
+  {{ $image = $featured.Fill (printf "120x120 %s" $anchor) }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+{{ end }}
+
+{{ $venue := $item.Params.venue | default "" }}
+{{ $publicationText := $item.Params.publication | default "" }}
+{{ if and (eq $venue "") (ne $publicationText "") }}
+  {{ $venueMatch := findRE "\\(([^)]*)\\)" $publicationText }}
+  {{ $note := "" }}
+  {{ if gt (len $venueMatch) 0 }}
+    {{ $note = (index $venueMatch 0) | replaceRE "^\\((.*)\\)$" "$1" }}
+  {{ end }}
+  {{ $venueName := "" }}
+  {{ if findRE "Conference on Computer Vision and Pattern Recognition|CVPR" $publicationText }}
+    {{ $venueName = "CVPR" }}
+  {{ else if findRE "International Conference on Pattern Recognition|ICPR" $publicationText }}
+    {{ $venueName = "ICPR" }}
+  {{ else if findRE "European Conference on Computer Vision|ECCV" $publicationText }}
+    {{ $venueName = "ECCV" }}
+  {{ else if findRE "Neural Information Processing Systems|NeurIPS|NIPS" $publicationText }}
+    {{ $venueName = "NeurIPS" }}
+  {{ else if findRE "International Conference on Machine Learning|ICML" $publicationText }}
+    {{ $venueName = "ICML" }}
+  {{ end }}
+  {{ if and (ne $venueName "") (ne $note "") }}
+    {{ $venue = printf "%s - %s" $venueName $note }}
+  {{ else if ne $venueName "" }}
+    {{ $venue = $venueName }}
+  {{ else if ne $note "" }}
+    {{ $venue = $note }}
+  {{ end }}
+{{ end }}
+
+{{ $venueClass := $item.Params.venue_color | default "" }}
+{{ if eq $venueClass "" }}
+  {{ $venueType := "" }}
+  {{ if $item.Params.publication_types }}
+    {{ $venueType = index $item.Params.publication_types 0 }}
+  {{ end }}
+  {{ if eq $venueType "paper-conference" }}
+    {{ $venueClass = "bg-rose-100 text-rose-800" }}
+  {{ else if eq $venueType "paper-journal" }}
+    {{ $venueClass = "bg-sky-100 text-sky-800" }}
+  {{ else if eq $venueType "preprint" }}
+    {{ $venueClass = "bg-amber-100 text-amber-800" }}
+  {{ else }}
+    {{ $venueClass = "bg-slate-100 text-slate-800" }}
+  {{ end }}
+{{ end }}
+
+<div class="pub-list-item view-citation mb-4">
+  <div class="flex items-start gap-3">
+    {{ if $image }}
+      <a href="{{ $item.RelPermalink }}" class="flex-shrink-0 overflow-hidden rounded-md border border-gray-200 dark:border-gray-700" aria-hidden="true">
+        <img
+          class="h-14 w-14 object-cover"
+          src="{{ $image.RelPermalink }}"
+          width="{{ $image.Width }}"
+          height="{{ $image.Height }}"
+          alt="{{ with $item.Params.image.alt_text }}{{ . }}{{ else }}{{ $item.Title | plainify }}{{ end }}"
+        />
+      </a>
+    {{ else }}
+      <i class="far fa-file-alt pub-icon mt-1" aria-hidden="true"></i>
+    {{ end }}
+
+    <div class="min-w-0">
+      {{ if $venue }}
+        <div class="mb-2">
+          <span class="inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold tracking-wide {{ $venueClass }}">
+            {{ $venue }}
+          </span>
+        </div>
+      {{ end }}
+
+      {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+        <span class="article-metadata li-cite-author">
+          {{ partial "page_metadata_authors" $item }}
+        </span>
+        ({{- $item.Date.Format "2006" -}}).
+        <a href="{{ $item.RelPermalink }}" class="underline break-words">{{ $item.Title }}</a>.
+      {{ else }}
+        <span class="article-metadata li-cite-author">
+          {{ partial "page_metadata_authors" $item }}.
+        </span>
+        <a href="{{ $item.RelPermalink }}" class="underline break-words">{{ $item.Title }}</a>.
+      {{ end }}
+
+      {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+        {{ if $item.Params.publication_short }}
+          {{- $item.Params.publication_short | markdownify -}}.
+        {{ else if $item.Params.publication }}
+          {{- $item.Params.publication | markdownify -}}.
+        {{ end }}
+      {{ else }}
+        {{ if $item.Params.publication_short }}
+          {{- $item.Params.publication_short | markdownify -}},
+        {{ else if $item.Params.publication }}
+          {{- $item.Params.publication | markdownify -}},
+        {{ end }}
+        {{- $item.Date.Format "2006" -}}.
+      {{ end }}
+
+      {{ if $has_attachments }}
+        <div class="flex flex-wrap gap-3 mt-2">
+          {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
