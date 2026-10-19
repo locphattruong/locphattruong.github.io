@@ -1,22 +1,12 @@
-name: Updater (WIP)
-
+# Historical Hugo updater disabled after the Astro migration.
+name: Legacy Hugo updater (disabled)
 on:
-  schedule:
-    - cron: 0 0 * * 0
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
-
-# Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
-  contents: write
-
+  contents: read
 jobs:
-  update:
-    if: github.repository_owner == 'HugoBlox'
+  disabled:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
-      - uses: HugoBlox/gh-action-updater@v1
-        with:
-          feed-url: https://hugoblox.com/rss.xml
-          readme-section: news
-          branch: main
+      - run: echo 'This site is built with Astro.'

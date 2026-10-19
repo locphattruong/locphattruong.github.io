@@ -1,0 +1,27 @@
+{
+  "name": "phat-truong-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "node scripts/prepare-assets.mjs && astro build && node scripts/verify-build.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "check": "astro check",
+    "predev": "node scripts/prepare-assets.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.4.1",
+    "marked": "^18.1.1",
+    "sharp": "^0.35.5",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.11",
+    "@types/node": "^26.6.5",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22.22.0"
+  }
+}

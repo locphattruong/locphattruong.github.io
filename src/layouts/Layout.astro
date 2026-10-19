@@ -1,0 +1,46 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+interface Props { title?: string; description?: string }
+const { title = 'Loc-Phat Truong', description = 'Phat Truong — PhD candidate in computer vision at HuPBA, University of Barcelona. Generative models, human understanding, and fashion technology.' } = Astro.props;
+const current = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content={description}/>
+    <meta name="theme-color" content="#17181c"/>
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)}/>
+    <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
+    <meta property="og:image" content={new URL('/images/avatar.jpg', Astro.site)}/>
+    <link rel="icon" href="/favicon.png"/>
+    <link rel="preload" href="/fonts/Inter.var.woff2" as="font" type="font/woff2" crossorigin/>
+    <title>{title}</title>
+    <script is:inline>
+      try { document.documentElement.dataset.theme = localStorage.getItem('theme') === 'light' ? 'light' : 'dark'; } catch {}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/"><img src="/images/logo.png" alt="" width="28" height="28"/><span>Loc-Phat Truong</span></a>
+      <nav aria-label="Main navigation">{[['/', 'Home'], ['/projects/', 'Projects'], ['/experience/', 'CV']].map(([href, label]) => <a href={href} aria-current={current === href ? 'page' : undefined}>{label}</a>)}</nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme" type="button"><span class="sun"><Icon name="sun"/></span><span class="moon"><Icon name="moon"/></span></button>
+    </header>
+    <main id="main"><slot/></main>
+    <footer>© {new Date().getFullYear()} Loc-Phat Truong. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY NC ND 4.0</a>.</footer>
+    <script>
+      const button = document.querySelector<HTMLButtonElement>('#theme-toggle');
+      function updateLabel() { button?.setAttribute('aria-label', `Switch to ${document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'} theme`); }
+      updateLabel();
+      button?.addEventListener('click', () => {
+        const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = theme;
+        try { localStorage.setItem('theme', theme); } catch {}
+        updateLabel();
+      });
+    </script>
+  </body>
+</html>

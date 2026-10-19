@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { cv, profile, date, markdown } from '../lib/content';
+const range = (entry: Record<string, any>) => `${date(entry.date_start)} – ${entry.date_end ? date(entry.date_end) : 'Present'}`;
+---
+<Layout title="CV — Loc-Phat Truong"><div class="page"><h1>Curriculum Vitae</h1><p>Download my full CV <a href="/uploads/academic_cv.pdf">here</a>.</p>
+  <h2>Education</h2>{cv.data.education.map((item: Record<string, any>) => <article class="timeline-entry"><h3>{item.area}</h3><div>{item.institution}</div><time>{range(item)}</time>{item.summary && <div class="prose" set:html={markdown(item.summary)}/>}</article>)}
+  <h2>Experience</h2>{cv.data.work.map((item: Record<string, any>) => <article class="timeline-entry"><h3>{item.position}</h3><div>{item.company_url ? <a href={item.company_url}>{item.company_name}</a> : item.company_name}</div><time>{range(item)}</time>{item.summary && <div class="prose" set:html={markdown(item.summary)}/>}</article>)}
+  <h2>Awards</h2>{profile.data.awards.map((item: Record<string, any>) => <article class="timeline-entry"><h3>{item.url ? <a href={item.url}>{item.title}</a> : item.title}</h3><div>{item.awarder}</div><time>{date(item.date)}</time>{item.summary && <div class="prose" set:html={markdown(item.summary)}/>}</article>)}
+  <h2>Languages</h2><div class="language-list">{profile.data.languages.map((item: Record<string, any>) => <span>{item.name}</span>)}</div>
+</div></Layout>

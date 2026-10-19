@@ -1,0 +1,9 @@
+---
+import Icon from './Icon.astro';
+import { resources, type Entry } from '../lib/content';
+interface Props { entry: Entry }
+const { entry } = Astro.props;
+---
+<ul class="resource-links" aria-label={`Resources for ${entry.data.title}`}>
+  {resources(entry).map(resource => <li><a class="icon-link" href={resource.href} aria-label={`${resource.label}: ${entry.data.title}`}><Icon name={resource.icon}/><span class="tooltip" aria-hidden="true">{resource.label}</span></a></li>)}
+</ul>

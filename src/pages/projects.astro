@@ -1,0 +1,5 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { projects } from '../lib/content';
+---
+<Layout title="Projects — Loc-Phat Truong"><div class="page"><h1>Projects</h1><div class="project-grid">{projects.map(entry => <a class="project-card" href={entry.data.external_link || `/${entry.slug}/`}>{entry.image && <img src={entry.image} alt={entry.data.title} width="640" height="400" loading="lazy"/>}<h2>{entry.data.title}</h2></a>)}</div></div></Layout>

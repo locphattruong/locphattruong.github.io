@@ -1,0 +1,19 @@
+---
+import { publications, description, type Entry } from '../lib/content';
+import ResourceLinks from './ResourceLinks.astro';
+interface Props { entries?: Entry[] }
+const { entries = publications } = Astro.props;
+---
+<div class="publication-list">
+  {entries.map(entry => <article class="publication">
+    {entry.image && <a class="publication-image" href={`/${entry.slug}/`} aria-label={`Read ${entry.data.title}`}><img src={entry.image} alt={`Research overview: ${entry.data.title}`} loading="lazy" width="480" height="300" /></a>}
+    <div class="publication-copy">
+      <h3><a href={entry.data.url_project || `/${entry.slug}/`}>{entry.data.title}</a></h3>
+      {description(entry) && <p class="publication-summary">{description(entry)}</p>}
+      <p class="authors">{entry.data.authors.map((author: string, index: number) => <><Fragment>{index > 0 ? ', ' : ''}</Fragment>{author === 'admin' ? <strong>Phat Truong</strong> : author}</>)}</p>
+      <div class="publication-venue" set:html={entry.data.publication ? entry.data.publication.replace(/^In\s+/, '').replace(/\*/g, '') : ''} />
+      {entry.data.recognition && <p class="publication-recognition">{entry.data.recognition}</p>}
+      <ResourceLinks entry={entry}/>
+    </div>
+  </article>)}
+</div>

@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Publications from '../components/Publications.astro';
+import ResourceLinks from '../components/ResourceLinks.astro';
+import { collection, markdown, date, type Entry } from '../lib/content';
+export function getStaticPaths() {
+  const folders = ['publication', 'project', 'news', 'industrial-project', 'personal-project'];
+  return folders.flatMap(folder => [
+    { params: { slug: folder }, props: { folder, entries: collection(folder), entry: undefined } },
+    ...collection(folder).map(entry => ({ params: { slug: entry.slug }, props: { folder, entries: [], entry } })),
+  ]);
+}
+interface Props { folder: string; entries: Entry[]; entry?: Entry }
+const { folder, entries, entry } = Astro.props;
+const labels: Record<string, string> = { publication: 'Publications', project: 'Projects', news: 'News', 'industrial-project': 'Industrial projects', 'personal-project': 'Personal projects' };
+const title = entry?.data.title || labels[folder];
+---
+<Layout title={`${title} — Loc-Phat Truong`}><div class="page">
+  {entry ? <>
+    <a class="back-link" href={folder === 'publication' || folder === 'news' ? `/#${folder === 'publication' ? 'publications' : 'news'}` : '/projects/'}>← Back</a>
+    <h1>{title}</h1>
+    {entry.data.authors && <p class="article-meta">{entry.data.authors.map((author: string) => author === 'admin' ? 'Phat Truong' : author).join(', ')}</p>}
+    {folder === 'publication' && <ResourceLinks entry={entry}/>}
+    {entry.image && <img class="detail-image" src={entry.image} alt={`Overview of ${title}`} width="1000" height="550"/>}
+    {entry.data.abstract && <><h2>Abstract</h2><div class="prose" set:html={markdown(entry.data.abstract)}/></>}
+    {entry.data.external_link && <p><a href={entry.data.external_link}>Visit project page →</a></p>}
+    {entry.data.link && <p><a href={entry.data.link}>Read more →</a></p>}
+    {entry.body && <div class="prose" set:html={markdown(entry.body)}/>}
+  </> : <><h1>{title}</h1>{folder === 'publication' ? <Publications entries={entries}/> : <ul class="archive-list">{entries.map(item => <li><a href={item.data.external_link || item.data.link || `/${item.slug}/`}>{item.data.title}</a>{folder === 'news' && <span class="article-meta"> · {date(item.data.date)}</span>}</li>)}</ul>}</>}
+</div></Layout>

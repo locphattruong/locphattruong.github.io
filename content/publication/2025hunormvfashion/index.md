@@ -28,11 +28,12 @@ publishDate: '2025-11-16'
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
 publication_types: ['paper-conference']
-venue: "CVPR (Highlight)"
+venue: "CVPR"
 venue_color: "bg-purple-100 text-purple-800"
 
 # Publication name and optional abbreviated publication name.
-publication: In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026 (Highlight)*
+publication: In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2026*
+recognition: "Highlight paper — 12% of accepted papers"
 publication_short:
 
 abstract: 'Existing 4D human datasets fall short for fashion-specific research, lacking either realistic garment dynamics or task-specific annotations. Synthetic datasets suffer from a realism gap, whereas real-world captures lack the detailed annotations and paired data required for virtual try-on (VTON) and size estimation tasks. To bridge this gap, we introduce MV-Fashion, a large-scale, multi-view video dataset engineered for domain-specific fashion analysis. MV-Fashion features 3,273 sequences (72.5 million frames) from 80 diverse subjects wearing 3-10 outfits each. It is designed to capture complex, real-world garment dynamics, including multiple layers and varied styling (e.g., tucked shirts, rolled sleeves). A core contribution is a rich data representation that includes pixel-level semantic annotations, ground-truth material properties like elasticity, and 3D point clouds. Crucially for VTON applications, MV-Fashion provides paired data: multi-view synchronized captures of worn garments alongside their corresponding flat, catalogue images. We leverage this dataset to establish baselines for fashion-centric tasks, including virtual try-on, clothing size estimation, and novel view synthesis.'
@@ -55,7 +56,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2603.08147'
+url_pdf: 'https://openaccess.thecvf.com/content/CVPR2026/papers/Laczko_MV-Fashion_Towards_Enabling_Virtual_Try-On_and_Size_Estimation_with_Multi-View_CVPR_2026_paper.pdf'
 url_code: 'https://github.com/HunorLaczko/MV-Fashion'
 url_dataset: 'https://hunorlaczko.github.io/MV-Fashion/request-data'
 url_poster: ''

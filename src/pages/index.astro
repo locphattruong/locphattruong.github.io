@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import News from '../components/News.astro';
+import Publications from '../components/Publications.astro';
+import { profile, markdown } from '../lib/content';
+const socialIcons: Record<string, string> = { 'at-symbol': 'mail', 'brands/github': 'github', 'brands/linkedin': 'linkedin', 'academicons/google-scholar': 'scholar' };
+const socialLabels: Record<string, string> = { 'at-symbol': 'Email', 'brands/github': 'GitHub', 'brands/linkedin': 'LinkedIn', 'academicons/google-scholar': 'Google Scholar' };
+---
+<Layout>
+  <section class="biography" aria-labelledby="welcome">
+    <aside class="profile">
+      <img class="avatar" src="/images/avatar.jpg" alt="Phat Truong" width="300" height="300" fetchpriority="high"/>
+      <h1>{profile.data.title}</h1>
+      <p class="role">{profile.data.role}</p>
+      {profile.data.organizations.map((org: { name: string; url: string }) => <a class="affiliation" href={org.url}>{org.name}</a>)}
+      <ul class="social-links" aria-label="Contact and profiles">{profile.data.profiles.map((item: {icon: string; url: string}) => <li><a href={item.url} aria-label={socialLabels[item.icon]} title={socialLabels[item.icon]}><Icon name={socialIcons[item.icon]} size={25}/></a></li>)}</ul>
+    </aside>
+    <div class="biography-copy welcome-block prose">
+      <Fragment set:html={markdown(profile.body).replace('<h2>', '<h2 id="welcome">')}/>
+      <p id="research">My research interests include conditional generative models in vision (image, video, 3D, etc.), representation learning, human understanding, and their application in fashion technology (e.g., sizing, virtual try-on, recommendation). I am also interested in techniques for making large models more efficient.</p>
+      <p class="research-invitation">Please reach out for discussion or collaboration 😃</p>
+    </div>
+  </section>
+  <News/>
+  <section id="publications" class="content-section" aria-labelledby="publications-heading"><h2 id="publications-heading">Publications</h2><Publications/></section>
+</Layout>

@@ -50,8 +50,8 @@ featured: true
 #   url: https://locphattruong.github.io/DualVTOFF/
 # external_link: https://locphattruong.github.io/DualVTOFF/
 
-url_pdf: 'https://arxiv.org/pdf/2604.08716'
-url_code: ''
+url_pdf: 'https://link.springer.com/chapter/10.1007/978-3-032-31663-9_22'
+url_code: 'https://github.com/locphattruong/dual-vtoff'
 url_dataset: ''
 url_poster: ''
 url_project: 'https://locphattruong.github.io/DualVTOFF/'

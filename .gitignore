@@ -3,3 +3,7 @@ _vendor
 go.sum
 hugo_stats.json
 *.DS_Store*
+node_modules/
+dist/
+.astro/
+.astro-assets/
