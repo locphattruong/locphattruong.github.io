@@ -26,7 +26,7 @@ const current = Astro.url.pathname;
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="/"><img src="/images/logo.png" alt="" width="28" height="28"/><span>Loc-Phat Truong</span></a>
-      <nav aria-label="Main navigation">{[['/', 'Home'], ['/projects/', 'Projects'], ['/experience/', 'CV']].map(([href, label]) => <a href={href} aria-current={current === href ? 'page' : undefined}>{label}</a>)}</nav>
+      <nav aria-label="Main navigation">{[['/', 'Home'], ['/experience/', 'CV']].map(([href, label]) => <a href={href} aria-current={current === href ? 'page' : undefined}>{label}</a>)}</nav>
       <button id="theme-toggle" class="theme-toggle" aria-label="Switch to light theme" type="button"><span class="sun"><Icon name="sun"/></span><span class="moon"><Icon name="moon"/></span></button>
     </header>
     <main id="main"><slot/></main>
