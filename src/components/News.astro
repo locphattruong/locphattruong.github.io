@@ -1,12 +1,13 @@
 ---
-import { news, date, isoDate } from '../lib/content';
+import { news } from '../lib/content';
+import NewsItem from './NewsItem.astro';
 const visible = news.slice(0, 3);
 const older = news.slice(3);
 ---
 <section id="news" class="content-section news-section" aria-labelledby="news-heading">
   <h2 id="news-heading">News</h2>
   <ul class="news-list">
-    {visible.map(entry => <li><time datetime={isoDate(entry.data.date)}>{date(entry.data.date)}</time><div>{entry.data.link ? <a href={entry.data.link}>{entry.data.title}</a> : entry.data.title}</div></li>)}
+    {visible.map(entry => <NewsItem entry={entry}/>)}
   </ul>
-  {older.length > 0 && <details class="older-news"><summary>Earlier news <span class="news-count">({older.length})</span></summary><ul class="news-list">{older.map(entry => <li><time datetime={isoDate(entry.data.date)}>{date(entry.data.date)}</time><div>{entry.data.link ? <a href={entry.data.link}>{entry.data.title}</a> : entry.data.title}</div></li>)}</ul></details>}
+  {older.length > 0 && <details class="older-news"><summary>Earlier news <span class="news-count">({older.length})</span></summary><ul class="news-list">{older.map(entry => <NewsItem entry={entry}/>)}</ul></details>}
 </section>

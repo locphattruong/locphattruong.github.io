@@ -1,0 +1,12 @@
+---
+import { date, isoDate, type Entry } from '../lib/content';
+interface Props { entry: Entry }
+const { entry } = Astro.props;
+---
+<li>
+  <time datetime={isoDate(entry.data.date)}>{date(entry.data.date)}</time>
+  <div>
+    {entry.data.link ? <a href={entry.data.link}>{entry.data.title}</a> : entry.data.title}
+    {entry.data.recognition && <>{' with '}<span class="recognition-badge">{entry.data.recognition.label}</span>{' 🎉'}</>}
+  </div>
+</li>
