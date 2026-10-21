@@ -14,3 +14,6 @@ footer{max-width:1000px;margin:70px auto 0;padding:30px 20px 40px;text-align:cen
 
 .publication-recognition{margin:5px 0 0;color:#f87171;font-size:13px;font-weight:650;line-height:1.6}
 [data-theme=light] .publication-recognition{color:#b91c1c}
+
+.recognition-badge{display:inline-block;padding:2px 8px;border-radius:6px;background:#4b3035;color:#fca5a5;font-size:12px;font-weight:700;line-height:1.5;vertical-align:baseline}
+[data-theme=light] .recognition-badge{background:#fee2e2;color:#b91c1c}

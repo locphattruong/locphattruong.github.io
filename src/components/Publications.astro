@@ -12,7 +12,7 @@ const { entries = publications } = Astro.props;
       {description(entry) && <p class="publication-summary">{description(entry)}</p>}
       <p class="authors">{entry.data.authors.map((author: string, index: number) => <><Fragment>{index > 0 ? ', ' : ''}</Fragment>{author === 'admin' ? <strong>Phat Truong</strong> : author}</>)}</p>
       <div class="publication-venue" set:html={entry.data.publication ? entry.data.publication.replace(/^In\s+/, '').replace(/\*/g, '') : ''} />
-      {entry.data.recognition && <p class="publication-recognition">{entry.data.recognition}</p>}
+      {entry.data.recognition && <p class="publication-recognition"><span class="recognition-badge">{entry.data.recognition.label}</span>{' - '}{entry.data.recognition.detail}</p>}
       <ResourceLinks entry={entry}/>
     </div>
   </article>)}
