@@ -25,7 +25,7 @@ The production build checks local links, images, the CV download, and key homepa
 
 - Biography, profile links, portrait: `content/authors/admin/`.
 - News: add a folder containing `index.md` under `content/news/`. Use `title`, `date`, and an optional `link`. The three latest entries appear initially; the rest expand using **Earlier news** without JavaScript.
-- Papers: edit `content/publication/*/index.md` and their `featured.png` images. Add a short `summary` for the sentence below the title. Resource URLs are optional: `url_project`, `url_code`, `url_pdf`, `url_arxiv`, `url_dataset`. Existing arXiv `url_source` values also work. Missing resources are omitted. At most five icons appear, each with a tooltip and accessible label. Venue is plain text, with no badge.
+- Papers: edit `content/publication/*/index.md` and their `featured.png` images. Publication rows show the title, authors, venue, recognition, and resource icons without generated summaries. Resource URLs are optional: `url_project`, `url_code`, `url_pdf`, `url_arxiv`, `url_dataset`. Existing arXiv `url_source` values also work. Missing resources are omitted. At most five icons appear, each with a tooltip and accessible label. Venue is plain text, with no badge.
 - Projects: `content/project/`.
 - CV: `content/authors/admin-cv/_index.md`; awards/languages use the main profile. PDFs live in `site-assets/uploads/` (existing filenames are preserved).
 - Layout and styling: `src/layouts/Layout.astro`, `src/components/`, `src/styles/global.css`. These are ordinary frontend components; change their markup freely.

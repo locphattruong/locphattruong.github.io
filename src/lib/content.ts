@@ -36,12 +36,6 @@ export const publications = collection('publication');
 export const news = collection('news');
 export const projects = collection('project');
 
-const descriptions: Record<string, string> = {
-  'publication/2025hunormvfashion': 'Multi-view paired data for virtual try-on, clothing size estimation, and novel view synthesis.',
-  'publication/2025phatvtoff': 'A systematic study of diffusion models for reconstructing garments from on-body images.',
-  'publication/2020': 'Real-time tomato quality classification with a mobile CNN and Grad-CAM visual explanations.',
-};
-export function description(entry: Entry) { return entry.data.summary || descriptions[entry.slug] || ''; }
 export interface Resource { label: string; icon: string; href: string }
 export function resources(entry: Entry): Resource[] {
   const d = entry.data;
